@@ -63,12 +63,12 @@
   <div class="frame">
     <div class="column-main">
       <h1>Business Equipment</h1>
-      <h3><em style="color: rgba(237, 28, 36, 1);">Simplify and reduce printing costs!</em></h3> 
+      <h3><em style="color: rgba(237, 28, 36, 1);">Simplify and reduce printing costs!</em></h3>
       <p>Whether you are interested in a complete computer network or an upgrade of your multifunction printers, our goal is to provide value paired with top notch service.  We offer you our best before and after the sale with a helpful sales staff and a fully trained and certified service department.<br><br>Our trained professional staff can assist you in controlling costs, office design, implementation and analysis of your office equipment, layout and networking.  We can help you design a complete office or setup a controlled cost environment for your printing/copying/faxing/scanning needs. New technology means more productivity and reduced costs when implemented correctly!</p>
       <div>
         <img style="float: left; height: 100px; margin-right: 1em;" src="../assets/img/support/pro-tech.jpg" alt="" />
         <h4 style="margin-bottom: 1em; position: relative; top: 0.75em">Top Konica Minolta service honors</h4>
-        <strong>2005, 2006, 2007, 2010, 2011, 2014, 2015, 2016</strong>
+        <strong>2005, 2006, 2007, 2010, 2011, 2014, 2015, 2016, 2017</strong>
       </div><br>
       <hr>
     </div>
@@ -76,13 +76,13 @@
   <div class="frame">
     <div class="bit-3">
       <h5>Tools &amp; Manuals</h5>
-      <a class="button-1" href="http://www.biz.konicaminolta.com/download/driver.html" target="_blank">Konica Minolta Drivers &amp; Manuals</a>
-      <a class="button-1" href="http://www.nopp.com/files/TeamViewerQS.exe">Download TeamViewer</a>
+      <a class="button-1 small" href="http://www.biz.konicaminolta.com/download/driver.html" target="_blank">Konica Minolta Support</a>
+      <a class="button-1 small" href="http://www.nopp.com/files/TeamViewerQS.exe">Download TeamViewer</a>
     </div>
     <div class="bit-3">
       <h5>More Information</h5>
-      <a class="button-1" href="../contact">Request a Quote</a>
-      <a class="button-1" href="http://kmbs.konicaminolta.us/kmbs/technology/multifunction" target="_blank">Konica Minolta Product Info</a>
+      <a class="button-1 small" href="../contact">Request a Quote</a>
+      <a class="button-1 small" href="http://kmbs.konicaminolta.us/kmbs/technology/multifunction" target="_blank">Konica Minolta Product Info</a>
     </div>
   </div>
   <!--<div class="frame">
@@ -120,13 +120,13 @@
   <div class="frame">
     <div class="column-main">
       <h1>Office Products</h1>
-      <p>As a local source for all your business product needs, we offer you over 35,000 items, most are available within 24 hours!</p> 
+      <p>As a local source for all your business product needs, we offer you over 35,000 items, most are available within 24 hours!</p>
       <ul class="checked">
         <li><span class="icon"><i class="fa fa-check color-1"></i></span>Quick &amp; Easy Ordering</li>
         <li><span class="icon"><i class="fa fa-check color-1"></i></span>Local Service</li>
         <li><span class="icon"><i class="fa fa-check color-1"></i></span>No Hassel Returns</li>
       </ul>
-      <a class="button-1" href="http://www.ecinteractive.com/841425/" target="_blank">Order online!</a>
+      <a class="button-1" href="http://www.biggestbook.com" title="Shop Online" target="_blank">Order online!</a>
     </div>
   </div>
 </section>
@@ -136,7 +136,7 @@
     <div class="column-main pull">
       <h1>Systems Furniture</h1>
       <h3><em style="color: rgba(237, 28, 36, 1);">Look Better. Work Better.</em></h3>
-      <p>Improve productivity and project a professional appearance with quality commercial modular furniture.</p> 
+      <p>Improve productivity and project a professional appearance with quality commercial modular furniture.</p>
       <ul class="checked">
         <li><span class="icon"><i class="fa fa-check color-1"></i></span>Consultation &amp; Space Planning</li>
         <li><span class="icon"><i class="fa fa-check color-1"></i></span>Custom Professional AutoCAD&reg; Design and Drawings</li>
@@ -194,38 +194,34 @@
     </div>
   </div>
 </footer>
-        
+
 <!-- Let's try to keep all the JS files down here, okay? Thanks! -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+<script src="//code.jquery.com/jquery-2.2.4.min.js" defer></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" defer></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js" defer></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js" defer></script>
+<script>
+  function downloadJSAtOnload() {
+    var element = document.createElement("script");
+    element.src = "assets/js/nopp.js";
+    document.body.appendChild(element);
+  }
+  if (window.addEventListener)
+    window.addEventListener("load", downloadJSAtOnload, false);
+  else if (window.attachEvent)
+    window.attachEvent("onload", downloadJSAtOnload);
+  else window.onload = downloadJSAtOnload;
+</script>
 <script src="../assets/js/plugins.js"></script>
-<script src="../assets/js/nopp.js"></script>
 <script src="../assets/js/scripts.min.js"></script>
-<script src="../assets/js/idangerous.swiper-2.1.min.js"></script>
 <script>
   !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
   arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
   d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
   insertBefore(d,q)}(window,document,'script','_gs');
   _gs('GSN-465059-S');
-</script>
-    <script type="text/javascript">
-  $(function(){
-    var mySwiper = $('.swiper-container').swiper({
-      mode: 'horizontal',
-      loop: true,
-      autoplay: 5000,
-      autoplayDisableOnInteraction: false,
-      calculateHeight: true,
-      cssWidthAndHeight: true
-    });
-    $('.arrow-left').on('click', function(e){
-      mySwiper.swipePrev()
-    })
-    $('.arrow-right').on('click', function(e){
-      mySwiper.swipeNext()
-    })
-  })
 </script>
 
 </body>
