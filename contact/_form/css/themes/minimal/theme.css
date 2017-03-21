@@ -1,0 +1,2690 @@
+/*
+    Description: 	Contact Framework
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Body
+	-------------------------------------------------- */
+	
+	body { 
+		background-color:#485160;
+	}
+
+/*	--------------------------------------------------
+	:: Form Blue
+	-------------------------------------------------- */
+
+	.form-minimal.form-blue-minimal .upload-button,
+	.form-minimal.form-blue-minimal .upload-button-slick {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-minimal.form-blue-minimal .drop-upload-button {
+		color:#3c9ad0;
+	}
+	
+	.form-minimal.form-blue-minimal .append-group i,
+	.form-minimal.form-blue-minimal .append-group-right i,
+	.form-minimal.form-blue-minimal .append-group-slick-right i{
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+
+	.form-minimal.form-blue-minimal .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#3c9ad0;
+	}
+
+	.form-minimal.form-blue-minimal .checkbox-slick:checked + .slicklabel::after {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-minimal.form-blue-minimal .radio-slick:checked + .slicklabel::after {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-minimal.form-blue-minimal .rating .rating-input:checked ~ .rating-label,
+	.form-minimal.form-blue-minimal .rating .rating-input:hover ~ .rating-label,
+	.form-minimal.form-blue-minimal .rating .rating-input ~ .rating-label:hover,
+	.form-minimal.form-blue-minimal .rating .rating-input ~ .rating-label:hover ~ .rating-label{ 
+		color:#3c9ad0;
+	}
+	
+	.form-minimal.form-blue-minimal .progress-bar .bar {
+		background-color:#3c9ad0;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Green
+	-------------------------------------------------- */
+
+	.form-minimal.form-green-minimal .upload-button,
+    .form-minimal.form-green-minimal .upload-button-slick {
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-minimal.form-green-minimal .drop-upload-button {
+		color:#39c176;
+	}
+	
+	.form-minimal.form-green-minimal .append-group i,
+	.form-minimal.form-green-minimal .append-group-right i,
+	.form-minimal.form-green-minimal .append-group-slick-right i{
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-minimal.form-green-minimal .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#39c176;
+	}
+	
+	.form-minimal.form-green-minimal .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-minimal.form-green-minimal .radio-slick:checked + .slicklabel::after { 
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-minimal.form-green-minimal .rating .rating-input:checked ~ .rating-label,
+	.form-minimal.form-green-minimal .rating .rating-input:hover ~ .rating-label,
+	.form-minimal.form-green-minimal .rating .rating-input ~ .rating-label:hover,
+	.form-minimal.form-green-minimal .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#39c176;
+	}
+	
+	.form-minimal.form-green-minimal .progress-bar .bar {
+		background-color:#39c176;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Red
+	-------------------------------------------------- */
+
+	.form-minimal.form-red-minimal .upload-button,
+    .form-minimal.form-red-minimal .upload-button-slick {
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-minimal.form-red-minimal .drop-upload-button {
+		color:#e04c69;
+	}
+	
+	.form-minimal.form-red-minimal .append-group i,
+	.form-minimal.form-red-minimal .append-group-right i,
+	.form-minimal.form-red-minimal .append-group-slick-right i{
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-minimal.form-red-minimal .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#e04c69;
+	}
+	
+	.form-minimal.form-red-minimal .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-minimal.form-red-minimal .radio-slick:checked + .slicklabel::after { 
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-minimal.form-red-minimal .rating .rating-input:checked ~ .rating-label,
+	.form-minimal.form-red-minimal .rating .rating-input:hover ~ .rating-label,
+	.form-minimal.form-red-minimal .rating .rating-input ~ .rating-label:hover,
+	.form-minimal.form-red-minimal .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#e04c69;
+	}
+	
+	.form-minimal.form-red-minimal .progress-bar .bar {
+		background-color:#e04c69;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Orange
+	-------------------------------------------------- */
+
+	.form-minimal.form-orange-minimal .upload-button,
+    .form-minimal.form-orange-minimal .upload-button-slick {
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-minimal.form-orange-minimal .drop-upload-button {
+		color:#ed7550;
+	}
+	
+	.form-minimal.form-orange-minimal .append-group i,
+	.form-minimal.form-orange-minimal .append-group-right i,
+	.form-minimal.form-orange-minimal .append-group-slick-right i{
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-minimal.form-orange-minimal .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#ed7550;
+	}
+	
+	.form-minimal.form-orange-minimal .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-minimal.form-orange-minimal .radio-slick:checked + .slicklabel::after { 
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-minimal.form-orange-minimal .rating .rating-input:checked ~ .rating-label,
+	.form-minimal.form-orange-minimal .rating .rating-input:hover ~ .rating-label,
+	.form-minimal.form-orange-minimal .rating .rating-input ~ .rating-label:hover,
+	.form-minimal.form-orange-minimal .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#ed7550;
+	}
+	
+	.form-minimal.form-orange-minimal .progress-bar .bar {
+		background-color:#ed7550;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Purple
+	-------------------------------------------------- */
+
+	.form-minimal.form-purple-minimal .upload-button,
+    .form-minimal.form-purple-minimal .upload-button-slick {
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-minimal.form-purple-minimal .drop-upload-button {
+		color:#b170bb;
+	}
+	
+	.form-minimal.form-purple-minimal .append-group i,
+	.form-minimal.form-purple-minimal .append-group-right i,
+	.form-minimal.form-purple-minimal .append-group-slick-right i{
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-minimal.form-purple-minimal .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#b170bb;
+	}
+	
+	.form-minimal.form-purple-minimal .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-minimal.form-purple-minimal .radio-slick:checked + .slicklabel::after { 
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-minimal.form-purple-minimal .rating .rating-input:checked ~ .rating-label,
+	.form-minimal.form-purple-minimal .rating .rating-input:hover ~ .rating-label,
+	.form-minimal.form-purple-minimal .rating .rating-input ~ .rating-label:hover,
+	.form-minimal.form-purple-minimal .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#b170bb;
+	}
+	
+	.form-minimal.form-purple-minimal .progress-bar .bar {
+		background-color:#b170bb;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Light Version
+	-------------------------------------------------- */
+	
+	/*	--------------------------------------------------
+		:: Form Pre-Header
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .pre-header{ 
+			background-color:#fdfdfd;
+			border-bottom:1px solid #eee;
+		}
+
+		.form-minimal.form-light-minimal .pre-header-description {
+			background-color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .pre-header-description .company-holder .company-border .company-logo:after {
+			box-shadow:0 0 0 4px #ccc;
+		}
+		
+		.form-minimal.form-light-minimal .pre-header-description .company-description h4,
+		.form-minimal.form-light-minimal .pre-header-description .company-description p,
+		.form-minimal.form-light-minimal .pre-header-description .company-description i,
+		.form-minimal.form-light-minimal .pre-header-description .company-description a { 
+			color:#999;	
+		}
+
+	/*	--------------------------------------------------
+		:: Form Header
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .header{ 
+			background-color:#fdfdfd;
+		    border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .header h4,
+		.form-minimal.form-light-minimal .header p {  
+			color:#999;		 
+		}
+
+	/*	--------------------------------------------------
+		:: Form Section
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .section { 
+			background-color:#fff;
+		}
+
+		.form-minimal.form-light-minimal .input,
+		.form-minimal.form-light-minimal .input-right,
+		.form-minimal.form-light-minimal .color-right,
+		.form-minimal.form-light-minimal .upload,
+		.form-minimal.form-light-minimal .upload-right,
+		.form-minimal.form-light-minimal .append,
+	    .form-minimal.form-light-minimal .append-right,
+		.form-minimal.form-light-minimal .stepper,
+		.form-minimal.form-light-minimal .clone,
+		.form-minimal.form-light-minimal .slider,
+		.form-minimal.form-light-minimal .slider-right,
+		.form-minimal.form-light-minimal .textarea.resisable,
+		.form-minimal.form-light-minimal .textarea.no-resisable,
+		.form-minimal.form-light-minimal .textarea-right.resisable,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable,
+		.form-minimal.form-light-minimal .captcha,
+	    .form-minimal.form-light-minimal .static-captcha,
+		.form-minimal.form-light-minimal .dinamic-captcha,
+		.form-minimal.form-light-minimal .input-slick-right,
+		.form-minimal.form-light-minimal .upload-slick-right,
+	    .form-minimal.form-light-minimal .append-slick-right,
+		.form-minimal.form-light-minimal .clone-slick-right,
+		.form-minimal.form-light-minimal .slider-slick-right,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable,
+		.form-minimal.form-light-minimal .stepper-slick-right,
+        .form-minimal.form-light-minimal .captcha-slick-right{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-minimal.form-light-minimal .static-captcha-slick-right,
+		.form-minimal.form-light-minimal .dinamic-captcha-slick-right{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#777;	
+		}
+		
+		.form-minimal.form-light-minimal .drop-upload{
+			background-color:#fff;
+			border:2px dashed #eee;
+			color:#777;	
+		}
+		
+		.form-minimal.form-light-minimal .select{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#ccc;	
+		}
+		
+		.form-minimal.form-light-minimal .input-group i,
+		.form-minimal.form-light-minimal .input-group-right i,
+		.form-minimal.form-light-minimal .color-group-right i,
+		.form-minimal.form-light-minimal .clone-group i,
+		.form-minimal.form-light-minimal .upload-group i,
+		.form-minimal.form-light-minimal .upload-group-right i,
+		.form-minimal.form-light-minimal .drop-upload-group i,
+		.form-minimal.form-light-minimal .slider-group i,
+		.form-minimal.form-light-minimal .slider-group-right i,
+		.form-minimal.form-light-minimal .textarea-group i,
+		.form-minimal.form-light-minimal .textarea-group-right i,
+		.form-minimal.form-light-minimal .input-group-slick-right i,
+		.form-minimal.form-light-minimal .upload-group-slick-right i,
+		.form-minimal.form-light-minimal .clone-group-slick-right i,
+		.form-minimal.form-light-minimal .slider-group-slick-right i,
+		.form-minimal.form-light-minimal .textarea-group-slick-right i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right i,
+		.form-minimal.form-light-minimal .captcha-group-slick-right i{
+			color:#999;
+		}
+	
+		.form-minimal.form-light-minimal .input:focus,
+		.form-minimal.form-light-minimal .input-right:focus,
+		.form-minimal.form-light-minimal .color-right:focus,
+		.form-minimal.form-light-minimal .upload:focus,
+		.form-minimal.form-light-minimal .upload-right:focus,
+		.form-minimal.form-light-minimal .drop-upload:focus,
+		.form-minimal.form-light-minimal .append:focus,
+	    .form-minimal.form-light-minimal .append-right:focus,
+		.form-minimal.form-light-minimal .stepper:focus,
+		.form-minimal.form-light-minimal .clone:focus,
+		.form-minimal.form-light-minimal .slider:focus,
+		.form-minimal.form-light-minimal .slider-right:focus,
+		.form-minimal.form-light-minimal .textarea.resisable:focus,
+		.form-minimal.form-light-minimal .textarea.no-resisable:focus,
+		.form-minimal.form-light-minimal .textarea-right.resisable:focus,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable:focus,
+		.form-minimal.form-light-minimal .captcha:focus,
+		.form-minimal.form-light-minimal .input-slick-right:focus,
+		.form-minimal.form-light-minimal .upload-slick-right:focus,
+	    .form-minimal.form-light-minimal .append-slick-right:focus,
+		.form-minimal.form-light-minimal .clone-slick-right:focus,
+		.form-minimal.form-light-minimal .slider-slick-right:focus,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable:focus,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable:focus,
+        .form-minimal.form-light-minimal .captcha-slick-right:focus,
+		.form-minimal.form-light-minimal .stepper-slick-right:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#777;
+		}
+		
+		.form-minimal.form-light-minimal .select:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#aaa;
+		}
+
+		.form-minimal.form-light-minimal .custom-select:before{
+			background-color:transparent;
+			color:#999;		
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-increase{
+			background-color:#fdfdfd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-decrease{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-increase{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group .stepper-button-increase i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .stepper-button-increase i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .clone-wrapper .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .close-button{
+			background-color:#fdfdfd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .open-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .close-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper .close-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .close-button i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .input-group-slick-right .label,
+		.form-minimal.form-light-minimal .upload-group-slick-right .label,
+		.form-minimal.form-light-minimal .slider-group-slick-right .label,
+		.form-minimal.form-light-minimal .textarea-group-slick-right .label,
+		.form-minimal.form-light-minimal .captcha-group-slick-right .label,
+		.form-minimal.form-light-minimal .clone-group-slick-right .label,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .label,
+		.form-minimal.form-light-minimal .append-group-slick-right .label{
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Footer
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .footer { 
+			background-color:#fdfdfd;
+		    border-top:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .footer p,
+		.form-minimal.form-light-minimal .footer .copyright,
+		.form-minimal.form-light-minimal .footer .copyright i { 	
+			color:#999;		 
+		}
+
+	/*	--------------------------------------------------
+		:: Button Configuration
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .button{
+			color:#fff;
+		}
+
+	/*	--------------------------------------------------
+		:: Button Colors
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .button-info {
+			background-color:#3c9ad0;
+		}
+
+		.form-minimal.form-light-minimal .button-warning {
+			background-color:#ed7550;
+		}
+		
+		.form-minimal.form-light-minimal .button-error {
+			background-color:#e04c69;
+		}
+
+		.form-minimal.form-light-minimal .button-success {
+			background-color:#39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Placeholders
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .input::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .input-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .color-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .drop-upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .append::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .append-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .stepper::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .clone::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .captcha::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .static-captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .dinamic-captcha::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .input-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload-slick-right::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .append-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .clone-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .stepper-slick-right::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .captcha-slick-right::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .static-captcha-slick-right::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .dinamic-captcha-slick-right::-webkit-input-placeholder {
+			color:#ccc;	
+		}
+		
+		.form-minimal.form-light-minimal .input:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .input-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .color-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .drop-upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .append:focus::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .append-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .stepper:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .clone:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .select:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .captcha:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .input-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .append-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#aaa;
+		}
+		
+		.form-minimal.form-light-minimal .input::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .input-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .color-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .drop-upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .append::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .append-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .stepper::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .clone::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .captcha::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .static-captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .dinamic-captcha::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .input-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload-slick-right::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .append-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .clone-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .stepper-slick-right::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .captcha-slick-right::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .static-captcha-slick-right::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .dinamic-captcha-slick-right::-ms-input-placeholder {
+			color:#ccc;	
+		}
+		
+		.form-minimal.form-light-minimal .input:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .input-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .color-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .drop-upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .append:focus::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .append-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .stepper:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .clone:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .select:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .captcha:focus::ms-input-placeholder,
+		.form-minimal.form-light-minimal .input-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .append-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .clone-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .slider-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .stepper-slick-right:focus::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#aaa;
+		}
+		
+	/*	--------------------------------------------------
+		:: Disables States
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .input[disabled],
+		.form-minimal.form-light-minimal .input-right[disabled],
+		.form-minimal.form-light-minimal .color-right[disabled],
+		.form-minimal.form-light-minimal .upload[disabled],
+		.form-minimal.form-light-minimal .upload-right[disabled],
+		.form-minimal.form-light-minimal .drop-upload[disabled],
+		.form-minimal.form-light-minimal .append[disabled],
+		.form-minimal.form-light-minimal .append-right[disabled],
+		.form-minimal.form-light-minimal .stepper[disabled],
+		.form-minimal.form-light-minimal .clone[disabled],
+		.form-minimal.form-light-minimal .slider[disabled],
+		.form-minimal.form-light-minimal .slider-right[disabled],
+		.form-minimal.form-light-minimal .textarea[disabled].resisable,
+		.form-minimal.form-light-minimal .textarea[disabled].no-resisable,
+		.form-minimal.form-light-minimal .textarea-right[disabled].resisable,
+		.form-minimal.form-light-minimal .textarea-right[disabled].no-resisable,
+		.form-minimal.form-light-minimal .captcha[disabled],
+		.form-minimal.form-light-minimal .input-slick-right[disabled],
+		.form-minimal.form-light-minimal .upload-slick-right[disabled],
+		.form-minimal.form-light-minimal .append-slick-right[disabled],
+		.form-minimal.form-light-minimal .clone-slick-right[disabled],
+		.form-minimal.form-light-minimal .slider-slick-right[disabled],
+		.form-minimal.form-light-minimal .textarea-slick-right[disabled].resisable,
+		.form-minimal.form-light-minimal .textarea-slick-right[disabled].no-resisable,
+		.form-minimal.form-light-minimal .stepper-slick-right[disabled],
+		.form-minimal.form-light-minimal .captcha-slick-right[disabled]{
+			background-color:#fdfdfd;
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .select[disabled]{
+			background-color:#fdfdfd;
+			color:#ccc;
+		}
+		
+		.form-minimal.form-light-minimal .checkbox[disabled] + .checkboxlabel::before, 
+		.form-minimal.form-light-minimal .radio[disabled] + .radiolabel::before{
+			background-color:#fdfdfd;
+			color:#ddd;
+		}
+		
+		.form-minimal.form-light-minimal .checkbox-slick[disabled] + .slicklabel::after, 
+		.form-minimal.form-light-minimal .radio-slick[disabled] + .slicklabel::after{
+			background-color:#f5f5f5;
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .button[disabled] {
+			background-color:#f5f5f5;
+			color:#999;
+		}
+		
+        .form-minimal.form-light-minimal .rating .rating-input[disabled]:checked ~ .rating-label,
+		.form-minimal.form-light-minimal .rating .rating-input[disabled]:hover ~ .rating-label,
+        .form-minimal.form-light-minimal .rating .rating-input[disabled] ~ .rating-label:hover,
+        .form-minimal.form-light-minimal .rating .rating-input[disabled] ~ .rating-label:hover ~ .rating-label { 
+			color:#ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Error States
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .error .input,
+		.form-minimal.form-light-minimal .error .input-right,
+		.form-minimal.form-light-minimal .error .color-right,
+		.form-minimal.form-light-minimal .error .upload,
+		.form-minimal.form-light-minimal .error .upload-right,
+		.form-minimal.form-light-minimal .error .drop-upload,
+		.form-minimal.form-light-minimal .error .append,
+		.form-minimal.form-light-minimal .error .append-right,
+		.form-minimal.form-light-minimal .error .stepper,
+		.form-minimal.form-light-minimal .error .clone,
+		.form-minimal.form-light-minimal .error .slider,
+		.form-minimal.form-light-minimal .error .slider-right,
+		.form-minimal.form-light-minimal .error .textarea.resisable,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable,
+		.form-minimal.form-light-minimal .error .select,
+		.form-minimal.form-light-minimal .error .captcha,
+		.form-minimal.form-light-minimal .error .input-slick-right,
+		.form-minimal.form-light-minimal .error .upload-slick-right,
+		.form-minimal.form-light-minimal .error .append-slick-right,
+		.form-minimal.form-light-minimal .error .clone-slick-right,
+		.form-minimal.form-light-minimal .error .slider-slick-right,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable,
+		.form-minimal.form-light-minimal .error .stepper-slick-right,
+		.form-minimal.form-light-minimal .error .captcha-slick-right{
+			background-color:#fdf9f9;
+			border-color:#f9c5c5;
+			color:#f38a8a; 
+		}
+		
+		.form-minimal.form-light-minimal .error .input:focus,
+		.form-minimal.form-light-minimal .error .input-right:focus,
+		.form-minimal.form-light-minimal .error .color-right:focus,
+		.form-minimal.form-light-minimal .error .upload:focus,
+		.form-minimal.form-light-minimal .error .upload-right:focus,
+		.form-minimal.form-light-minimal .error .drop-upload:focus,
+		.form-minimal.form-light-minimal .error .append:focus,
+		.form-minimal.form-light-minimal .error .append-right:focus,
+		.form-minimal.form-light-minimal .error .stepper:focus,
+		.form-minimal.form-light-minimal .error .clone:focus,
+		.form-minimal.form-light-minimal .error .slider:focus,
+		.form-minimal.form-light-minimal .error .slider-right:focus,
+		.form-minimal.form-light-minimal .error .textarea.resisable:focus,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable:focus,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable:focus,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable:focus,
+		.form-minimal.form-light-minimal .error .select:focus,
+		.form-minimal.form-light-minimal .error .captcha:focus,
+		.form-minimal.form-light-minimal .error .input-slick-right:focus,
+		.form-minimal.form-light-minimal .error .upload-slick-right:focus,
+		.form-minimal.form-light-minimal .error .append-slick-right:focus,
+		.form-minimal.form-light-minimal .error .clone-slick-right:focus,
+		.form-minimal.form-light-minimal .error .slider-slick-right:focus,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable:focus,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable:focus,
+		.form-minimal.form-light-minimal .error .stepper-slick-right:focus,
+		.form-minimal.form-light-minimal .error .captcha-slick-right:focus{
+			background-color:#fdf9f9;
+			border-color:#e9a7a7;
+			color:#d56161; 
+		}
+		
+		.form-minimal.form-light-minimal .input-group .error i,
+		.form-minimal.form-light-minimal .input-group-right .error i,
+		.form-minimal.form-light-minimal .color-group-right .error i,
+		.form-minimal.form-light-minimal .clone-group .error i,
+		.form-minimal.form-light-minimal .upload-group .error i,
+		.form-minimal.form-light-minimal .upload-group-right .error i,
+		.form-minimal.form-light-minimal .drop-upload-group .error i,
+		.form-minimal.form-light-minimal .textarea-group .error i,
+		.form-minimal.form-light-minimal .textarea-group-right .error i,
+		.form-minimal.form-light-minimal .slider-group .error i,
+		.form-minimal.form-light-minimal .slider-group-right .error i,
+		.form-minimal.form-light-minimal .error.custom-select:before,
+		.form-minimal.form-light-minimal .error .checkbox + .checkboxlabel::before, 
+		.form-minimal.form-light-minimal .error .radio + .radiolabel::before,
+		.form-minimal.form-light-minimal .error .checkbox + .checkboxlabel::after, 
+		.form-minimal.form-light-minimal .error .radio + .radiolabel::after,
+		.form-minimal.form-light-minimal .rating .rating-input ~ .error.rating-label,		
+		.form-minimal.form-light-minimal .rating .rating-input:checked ~ .error.rating-label,
+		.form-minimal.form-light-minimal .rating .rating-input:hover ~ .error.rating-label,
+        .form-minimal.form-light-minimal .rating .rating-input ~ .error.rating-label:hover,
+        .form-minimal.form-light-minimal .rating .rating-input ~ .rating-label:hover ~ .error.rating-label,
+		.form-minimal.form-light-minimal .input-group-slick-right .error i,
+		.form-minimal.form-light-minimal .upload-group-slick-right .error i,
+		.form-minimal.form-light-minimal .slider-group-slick-right .error i,
+		.form-minimal.form-light-minimal .textarea-group-slick-right .error i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error i,
+		.form-minimal.form-light-minimal .captcha-group-slick-right .error i,
+		.form-minimal.form-light-minimal .clone-group-slick-right .error i{
+			color:#e04c69; 
+		}
+		
+		.form-minimal.form-light-minimal .error .upload-button,
+		.form-minimal.form-light-minimal .append-group .error i,
+		.form-minimal.form-light-minimal .append-group-right .error i,
+		.form-minimal.form-light-minimal .error .checkbox-slick + .slicklabel::after, 
+		.form-minimal.form-light-minimal .error .radio-slick + .slicklabel::after,
+		.form-minimal.form-light-minimal .error .upload-button-slick,
+		.form-minimal.form-light-minimal .append-group-slick-right .error i{
+			background-color:#e04c69;
+			color:#fff; 
+		}
+		
+		.form-minimal.form-light-minimal .error .drop-upload-button{
+			color:#e04c69; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Error States Messages
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .error {
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-increase{
+			background-color:#e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-decrease{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-right:1px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-increase{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-left:1px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group .error .stepper-button-increase i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .stepper-button-increase i{
+			color:#fff; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .close-button{
+			background-color:#e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .open-button{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-right:1px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .close-button{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-left:1px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper .error ~ .close-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .error ~ .close-button i{
+			color:#fff; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .input-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .upload-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .slider-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .textarea-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .captcha-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .clone-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .error .label,
+		.form-minimal.form-light-minimal .append-group-slick-right .error .label{
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Error Placeholder
+		-------------------------------------------------- */
+	
+		.form-minimal.form-light-minimal .error .input::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .color-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .drop-upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .append::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .append-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .static-captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .dinamic-captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-slick-right::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .error .append-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .error .captcha-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper-slick-right::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .error .static-captcha-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .dinamic-captcha-slick-right::-webkit-input-placeholder{
+			color:#f38a8a;
+		}
+		
+		.form-minimal.form-light-minimal .error .input:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .color-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .drop-upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .append:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .append-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .select:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .captcha:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .error .append-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .error .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#d56161;
+		}
+		
+		.form-minimal.form-light-minimal .error .input::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .color-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .drop-upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .append::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .append-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .static-captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .dinamic-captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-slick-right::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .error .append-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .error .stepper-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .captcha-slick-right::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .error .static-captcha-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .dinamic-captcha-slick-right::-ms-input-placeholder{
+			color:#f38a8a;
+		}
+		
+		.form-minimal.form-light-minimal .error .input:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .color-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .drop-upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .append:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .append-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .select:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .captcha:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .input-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .error .append-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .clone-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .slider-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .error .stepper-slick-right:focus::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .error .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#d56161;
+		}
+		
+	/*	--------------------------------------------------
+		:: Success States
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .success .input,
+		.form-minimal.form-light-minimal .success .input-right,
+		.form-minimal.form-light-minimal .success .color-right,
+		.form-minimal.form-light-minimal .success .upload,
+		.form-minimal.form-light-minimal .success .upload-right,
+		.form-minimal.form-light-minimal .success .drop-upload,
+		.form-minimal.form-light-minimal .success .append,
+		.form-minimal.form-light-minimal .success .append-right,
+		.form-minimal.form-light-minimal .success .stepper,
+		.form-minimal.form-light-minimal .success .clone,
+		.form-minimal.form-light-minimal .success .slider,
+	    .form-minimal.form-light-minimal .success .slider-right,
+		.form-minimal.form-light-minimal .success .textarea.resisable,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable,
+		.form-minimal.form-light-minimal .success .select,
+		.form-minimal.form-light-minimal .success .captcha,
+        .form-minimal.form-light-minimal .success .input-slick-right,
+		.form-minimal.form-light-minimal .success .upload-slick-right,
+		.form-minimal.form-light-minimal .success .append-slick-right,
+		.form-minimal.form-light-minimal .success .clone-slick-right,
+		.form-minimal.form-light-minimal .success .slider-slick-right,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable,
+		.form-minimal.form-light-minimal .success .stepper-slick-right,
+		.form-minimal.form-light-minimal .success .captcha-slick-right {
+			border-color:#eee;
+			color:#bbb; 
+		}
+		
+		.form-minimal.form-light-minimal .success .input:focus,
+		.form-minimal.form-light-minimal .success .input-right:focus,
+		.form-minimal.form-light-minimal .success .color-right:focus,
+		.form-minimal.form-light-minimal .success .upload:focus,
+		.form-minimal.form-light-minimal .success .upload-right:focus,
+		.form-minimal.form-light-minimal .success .drop-upload:focus,
+		.form-minimal.form-light-minimal .success .append:focus,
+		.form-minimal.form-light-minimal .success .append-right:focus,
+		.form-minimal.form-light-minimal .success .stepper:focus,
+		.form-minimal.form-light-minimal .success .clone:focus,
+		.form-minimal.form-light-minimal .success .slider:focus,
+	    .form-minimal.form-light-minimal .success .slider-right:focus,
+		.form-minimal.form-light-minimal .success .textarea.resisable:focus,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable:focus,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable:focus,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable:focus,
+		.form-minimal.form-light-minimal .success .select:focus,
+		.form-minimal.form-light-minimal .success .captcha:focus,
+		.form-minimal.form-light-minimal .success .input-slick-right:focus,
+		.form-minimal.form-light-minimal .success .upload-slick-right:focus,
+		.form-minimal.form-light-minimal .success .append-slick-right:focus,
+		.form-minimal.form-light-minimal .success .clone-slick-right:focus,
+		.form-minimal.form-light-minimal .success .slider-slick-right:focus,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable:focus,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable:focus,
+		.form-minimal.form-light-minimal .success .stepper-slick-right:focus,
+		.form-minimal.form-light-minimal .success .captcha-slick-right:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#777;
+		}
+		
+		.form-minimal.form-light-minimal .input-group .success i,
+		.form-minimal.form-light-minimal .input-group-right .success i,
+		.form-minimal.form-light-minimal .color-group-right .success i,
+		.form-minimal.form-light-minimal .clone-group .success i,
+		.form-minimal.form-light-minimal .upload-group .success i,
+		.form-minimal.form-light-minimal .upload-group-right .success i,
+		.form-minimal.form-light-minimal .drop-upload-group .success i,
+		.form-minimal.form-light-minimal .textarea-group .success i,
+		.form-minimal.form-light-minimal .textarea-group-right .success i,
+		.form-minimal.form-light-minimal .slider-group .success i,
+	    .form-minimal.form-light-minimal .slider-group-right .success i,
+		.form-minimal.form-light-minimal .success.custom-select:before,
+		.form-minimal.form-light-minimal .input-group-slick-right .success i,
+		.form-minimal.form-light-minimal .upload-group-slick-right .success i,
+		.form-minimal.form-light-minimal .slider-group-slick-right .success i,
+		.form-minimal.form-light-minimal .textarea-group-slick-right .success i,
+		.form-minimal.form-light-minimal .captcha-group-slick-right .success i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success i,
+		.form-minimal.form-light-minimal .clone-group-slick-right .success i{
+			color:#999; 
+		}
+		
+		.form-minimal.form-light-minimal .success .checkbox + .checkboxlabel::before, 
+		.form-minimal.form-light-minimal .success .radio + .radiolabel::before{
+			color:#ddd; 
+		}
+		
+		.form-minimal.form-light-minimal .success .checkbox + .checkboxlabel::after, 
+		.form-minimal.form-light-minimal .success .radio + .radiolabel::after{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-increase{
+			background-color:#fdfdfd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-decrease,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-decrease{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-increase,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-increase{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group .success .stepper-button-increase i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-decrease i,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .stepper-button-increase i{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .close-button{
+			background-color:#fdfdfd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .open-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .open-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .close-button,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .close-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper .success ~ .close-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .open-button i,
+		.form-minimal.form-light-minimal .clone-wrapper-slick .success ~ .close-button i{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .input-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .upload-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .slider-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .textarea-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .captcha-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .stepper-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .clone-group-slick-right .success .label,
+		.form-minimal.form-light-minimal .append-group-slick-right .success .label{
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Success Placeholder
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .success .input::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .color-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .drop-upload::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .append::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .append-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .static-captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .dinamic-captcha::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-slick-right::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .success .append-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .success .stepper-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .captcha-slick-right::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .success .static-captcha-slick-right::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .dinamic-captcha-slick-right::-webkit-input-placeholder{
+			color:#bbb;
+		}
+		
+		.form-minimal.form-light-minimal .success .input:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .color-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .drop-upload:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .append:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .append-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider:focus::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .success .slider-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .select:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .captcha:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-minimal.form-light-minimal .success .append-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-minimal.form-light-minimal .success .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#777;
+		}
+		
+		.form-minimal.form-light-minimal .success .input::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .color-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .drop-upload::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .append::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .append-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .static-captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .dinamic-captcha::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-slick-right::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .success .append-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .success .captcha-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper-slick-right::-ms-input-placeholder,
+        .form-minimal.form-light-minimal .success .static-captcha-slick-right::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .dinamic-captcha-slick-right::-ms-input-placeholder{
+			color:#bbb;
+		}
+		
+		.form-minimal.form-light-minimal .success .input:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .color-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .drop-upload:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .append:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .append-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .select:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .captcha:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .input-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-minimal.form-light-minimal .success .append-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .clone-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .slider-slick-right:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-minimal.form-light-minimal .success .stepper-slick-right:focus::-ms-input-placeholder
+        .form-minimal.form-light-minimal .success .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#777;
+		}
+
+	/*	--------------------------------------------------
+		:: Checkbox
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .checkbox + .checkboxlabel::before{
+			color:#ddd;
+			background-color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .checkbox:checked + .checkboxlabel::before{
+			background-color:#fff;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+		.form-minimal.form-light-minimal .checkbox + .checkboxlabel::after{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .checkbox:checked, .checkbox:focus,
+		.form-minimal.form-light-minimal .checkbox:checked + .checkboxlabel, .checkbox:focus + .checkboxlabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .radio + .radiolabel::before{
+			color:#ddd;
+			background-color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .radio:checked + .radiolabel::before{
+			background-color:#fff;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+		.form-minimal.form-light-minimal .radio + .radiolabel::after{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .radio:checked, .radio:focus,
+		.form-minimal.form-light-minimal .radio:checked + .radiolabel, .radio:focus + .radiolabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+	
+	/*	--------------------------------------------------
+		:: Checkbox Slick
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .checkbox-slick + .slicklabel::after{
+			color:#999;		
+			background-color:#eee;
+		}
+		
+		.form-minimal.form-light-minimal .checkbox-slick:checked, .checkbox-slick:focus,
+		.form-minimal.form-light-minimal .checkbox-slick:checked + .slicklabel, .checkbox-slick:focus + .slicklabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio Slick
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .radio-slick + .slicklabel::after{
+			color:#999;		
+			background-color:#eee;
+		}
+		
+		.form-minimal.form-light-minimal .radio-slick:checked, .radio-slick:focus,
+		.form-minimal.form-light-minimal .radio-slick:checked + .slicklabel, .radio-slick:focus + .slicklabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Ratings
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .rating-group h4{
+			color:#777;
+		}
+		
+		.form-minimal.form-light-minimal .rating .rating-label {
+			color:#ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Design
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .box{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .box .box-header{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-minimal.form-light-minimal .box .box-header h4{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .box .box-header i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Services Design
+		-------------------------------------------------- */
+
+		.form-minimal.form-light-minimal .box-services{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-header-services{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-header-services h4{
+			color:#999;
+		}	
+		
+		.form-minimal.form-light-minimal .box-services .box-section-services{
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-section-services h4{
+			color:#777;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-section-services i{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-section-services p,
+		.form-minimal.form-light-minimal .box-services .box-section-services .totalservices{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-sub-footer-services{
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-sub-footer-services p{
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-footer-services #carousel .service-item .overlay {
+			background-color:rgba(0,0,0,0.6);
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-footer-services #carousel .service-item .overlay .description p {
+			color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .box-services .box-footer-services #carousel .service-item .overlay .description i {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Payment Design
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .box-payment{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .box-payment .box-header-payment{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-visa,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-electron,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-mastercard,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-maestro,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-amex,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-paypal,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-stripe,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment .card-braintree{
+			background-color:#fff;
+			border:1px solid #ddd;
+		}
+		
+		.form-minimal.form-light-minimal .box-payment .box-header-payment h4,
+		.form-minimal.form-light-minimal .box-payment .box-header-payment i{
+			color:#999;
+		}
+	
+	/*	--------------------------------------------------
+		:: Box Payment Method
+		-------------------------------------------------- */	
+	
+		.form-minimal.form-light-minimal .box-payment .box-section-payment{
+			background-color:#fdfdfd;
+		}
+
+		.form-minimal.form-light-minimal .box-payment .box-section-payment .tabslabel h4{
+			background-color:#eee;
+			color:#999;		
+		}
+
+		.form-minimal.form-light-minimal .box-payment .box-section-payment ul li{
+			background-color:#fff;	
+			border-top:1px solid #eee;
+		}
+	
+	/*	--------------------------------------------------
+		:: Tooltips
+		-------------------------------------------------- */	
+	
+		.form-minimal.form-light-minimal .tooltip,
+		.form-minimal.form-light-minimal .tooltip:before {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-info {
+			background-color:#3c9ad0;
+		    border:1px solid #1f77aa;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Top
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-info.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #3c9ad0;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-info.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-info.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Bottom
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-info.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-info.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-info.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Left
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-info.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Right
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-info.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-warning {
+			background-color:#ed7550;
+		    border:1px solid #c95b3a;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Top
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-warning.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #ed7550;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-warning.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #ed7550;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-warning.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Bottom
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-warning.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-warning.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-warning.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Left
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-warning.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Right
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-warning.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-error {
+			background-color:#e04c69;
+		    border:1px solid #be3953; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Top
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-error.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-error.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-error.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Bottom
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-error.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-error.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-error.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Left
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-error.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Right
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-error.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-success {
+			background-color:#39c176;
+		    border:1px solid #27995a;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Top
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-success.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #39c176;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-success.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #39c176;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-success.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Bottom
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-success.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-success.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+		.form-minimal.form-light-minimal .tooltip-success.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Left
+		-------------------------------------------------- */	
+		
+		.form-minimal.form-light-minimal .tooltip-success.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Right
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .tooltip-success.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #39c176;
+		}
+	
+	/*	--------------------------------------------------
+		:: Normal & Striped Progress Bars Configurations 
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .progress-bar {  
+			background-color:#f5f5f5;	
+		}
+		
+		.form-minimal.form-light-minimal .progress-bar .percent {
+			color:#fff;   		
+		}
+
+	/*	--------------------------------------------------
+		:: Striped Progress Bars 
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .progress-bar.striped .bar {
+			background-image:linear-gradient(135deg, rgba(255,255,255,.15) 25%, transparent 25%,transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%,transparent 75%, transparent);            
+			-webkit-animation:animate 3s linear infinite;
+			   -moz-animation:animate 3s linear infinite;
+				 -o-animation:animate 3s linear infinite;
+					animation:animate 3s linear infinite;   
+		}
+		
+	/*	--------------------------------------------------
+		::  Dividers
+		-------------------------------------------------- */
+	
+		.form-minimal.form-light-minimal .dividers .divider {
+            color:#777;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider One
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-one {
+			border-top:1px solid #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Two
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-two {
+			border-top:1px dashed #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Three
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-three {
+			border-top:1px dotted #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Four
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-four {
+			border-top:2px solid #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Five
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-five {
+			border-top:2px dashed #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Six
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-six {
+			border-top:2px dotted #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Seven
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-seven {
+			border-top:3px double #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Eight
+		-------------------------------------------------- */
+	
+	    .form-minimal.form-light-minimal .divider-eight {
+			background-color:#ddd;
+			background-image:-webkit-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-moz-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-ms-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-o-linear-gradient(left, #ddd, #999, #ddd);
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Nine
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-nine::after { 
+			border-top:1px dashed #ddd; 
+		} 
+		
+		.form-minimal.form-light-minimal .divider-nine p {
+            color:#999;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Ten
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-ten::after { 
+			border-top:1px solid #ddd; 
+		} 
+		
+		.form-minimal.form-light-minimal .divider-ten h4 {
+            color:#fff;			
+		}
+		
+		.form-minimal.form-light-minimal .divider-ten i { 
+            color:#fff;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Ten Colors
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .divider-info h4 {
+			background-color:#86b5ea;
+		}
+		
+		.form-minimal.form-light-minimal .divider-warning h4 {
+			background-color:#f69368;
+		}
+		
+		.form-minimal.form-light-minimal .divider-error h4 {
+			background-color:#f38a8a;
+		}
+		
+		.form-minimal.form-light-minimal .divider-success h4 {
+			background-color:#5ad98e;
+		}
+		
+	/*	--------------------------------------------------
+		:: Messages
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .info-message { 
+			background-color:#86b5ea;
+			border:1px solid #73a4da; 
+		}
+		
+		.form-minimal.form-light-minimal .warning-message {  
+			background-color:#f69368;
+			border:1px solid #d77449;
+		}
+		
+		.form-minimal.form-light-minimal .error-message { 
+			background-color:#f38a8a;
+			border:1px solid #e27373; 
+		}
+		
+		.form-minimal.form-light-minimal .success-message {  
+			background-color:#5ad98e;
+			border:1px solid #46c47a;
+		}
+		
+		.form-minimal.form-light-minimal .info-message i,
+		.form-minimal.form-light-minimal .warning-message i,
+		.form-minimal.form-light-minimal .error-message i,
+		.form-minimal.form-light-minimal .success-message i{
+			color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .info-message p,
+		.form-minimal.form-light-minimal .warning-message p,
+		.form-minimal.form-light-minimal .error-message p,
+		.form-minimal.form-light-minimal .success-message p{
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Messages
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .slick-info-message { 
+			background-color:#86b5ea;
+			border:1px solid #73a4da; 
+		}
+		
+		.form-minimal.form-light-minimal .slick-warning-message {  
+			background-color:#f69368;
+			border:1px solid #d77449;
+		}
+
+		.form-minimal.form-light-minimal .slick-error-message { 
+			background-color:#f38a8a;
+			border:1px solid #e27373; 
+		}
+		
+		.form-minimal.form-light-minimal .slick-success-message {  
+			background-color:#5ad98e;
+			border:1px solid #46c47a;
+		}
+		
+		.form-minimal.form-light-minimal .slick-info-message i,
+		.form-minimal.form-light-minimal .slick-warning-message i,
+		.form-minimal.form-light-minimal .slick-error-message i,
+		.form-minimal.form-light-minimal .slick-success-message i{
+			color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .slick-info-message p,
+		.form-minimal.form-light-minimal .slick-warning-message p,
+		.form-minimal.form-light-minimal .slick-error-message p,
+		.form-minimal.form-light-minimal .slick-success-message p{
+			color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .slick-divider { 
+			border-bottom:1px solid #fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Redirect Messages
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .section-message { 
+			background-color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .success-redirect i{
+			color:#39c176;
+		}
+		
+		.form-minimal.form-light-minimal .error-redirect i{
+			color:#e04c69;
+		}
+		
+		.form-minimal.form-light-minimal .error-redirect p,
+		.form-minimal.form-light-minimal .success-redirect p,
+		.form-minimal.form-light-minimal .error-redirect a,
+		.form-minimal.form-light-minimal .success-redirect a{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: NOSCRIPT Message
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .section-noscript-message{ 
+			background-color:#fff;
+		}
+		
+		.form-minimal.form-light-minimal .error-noscript { 
+			color:#999;
+		}
+		
+		.form-minimal.form-light-minimal .error-noscript i{
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Direct Access Messages
+		-------------------------------------------------- */
+		
+		.error-access-message { 
+			background-color:#fff;
+			border:1px solid #ddd; 
+		}
+		
+		.error-access-message p,
+		.error-access-message i { 
+			color:#777; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Design
+		-------------------------------------------------- */
+		
+		.loader{
+			border-left:5px solid #fff;
+			border-right:5px solid #fff;
+			border-top:5px solid transparent;
+			border-bottom:5px solid transparent;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Info
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-info{
+			background-color:#3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Warning
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-warning{
+			background-color:#ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Error
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-error{
+			background-color:#e04c69;
+		}
+			
+	/*	--------------------------------------------------
+		:: Loader Container Success
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-success{
+			background-color:#39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Google Map
+		-------------------------------------------------- */
+		
+		.form-minimal.form-light-minimal .map-group { 
+			border-top:1px solid #eee;	
+			border-bottom:1px solid #eee;		
+		}
+
+		.form-minimal.form-light-minimal .info-content h4{
+			color:#999;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-minimal.form-light-minimal .info-content p{
+			color:#999;
+		}
+	
+	/*	--------------------------------------------------
+		:: Emotions Autocomplete
+		-------------------------------------------------- */
+		
+		.dropdown-menu {
+			border:1px solid #eee;
+			background-color:#fff;
+		}
+
+		.dropdown-menu li {
+			border-bottom:1px solid #eee;
+		}
+
+		.dropdown-menu li a {
+			color:#777;
+		}
+
+		.dropdown-menu .active,
+		.dropdown-menu li:hover {
+			background:#fdfdfd;
+			color:#777;
+		}
+
+		.dropdown-menu .active a,
+		.dropdown-menu li:hover a {
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Autocomplete
+		-------------------------------------------------- */
+		
+		.completer-container {
+			background-color:#fff;
+			color:#777;	
+		}
+		
+		.completer-container li {
+			background-color:#fff;
+			border:1px solid #ddd;
+		}
+		
+		.completer-container .completer-selected,
+		.completer-container li:hover {
+			background-color:#f9f9f9;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Social Buttons
+		-------------------------------------------------- */
+		
+		.rrssb-buttons li a {
+			color:#fff;
+		}
+		
+		.rrssb-buttons li a i {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Social Buttons Colors
+		-------------------------------------------------- */
+		
+		.rrssb-buttons li.rrssb-email a {
+			background-color:#0a88ff;
+		}
+
+		.rrssb-buttons li.rrssb-email a:hover {
+			background-color:#006ed6;
+		}
+
+		.rrssb-buttons li.rrssb-facebook a {
+			background-color:#306199;
+		}
+
+		.rrssb-buttons li.rrssb-facebook a:hover {
+			background-color:#244872;
+		}
+
+		.rrssb-buttons li.rrssb-tumblr a {
+			background-color:#32506d;
+		}
+
+		.rrssb-buttons li.rrssb-tumblr a:hover {
+			background-color:#22364a;
+		}
+
+		.rrssb-buttons li.rrssb-linkedin a {
+			background-color:#007bb6;
+		}
+
+		.rrssb-buttons li.rrssb-linkedin a:hover {
+			background-color:#005983;
+		}
+
+		.rrssb-buttons li.rrssb-twitter a {
+			background-color:#26c4f1;
+		}
+
+		.rrssb-buttons li.rrssb-twitter a:hover {
+			background-color:#0eaad6;
+		}
+
+		.rrssb-buttons li.rrssb-googleplus a {
+			background-color:#e93f2e;
+		}
+
+		.rrssb-buttons li.rrssb-googleplus a:hover {
+			background-color:#ce2616;
+		}
+
+		.rrssb-buttons li.rrssb-youtube a {
+			background-color:#df1c31;
+		}
+
+		.rrssb-buttons li.rrssb-youtube a:hover {
+			background-color:#b21627;
+		}
+
+		.rrssb-buttons li.rrssb-reddit a {
+			background-color:#8bbbe3;
+		}
+
+		.rrssb-buttons li.rrssb-reddit a:hover {
+			background-color:#62a3d9;
+		}
+
+		.rrssb-buttons li.rrssb-pinterest a {
+			background-color:#b81621;
+		}
+
+		.rrssb-buttons li.rrssb-pinterest a:hover {
+			background-color:#8a1119;
+		}
+
+		.rrssb-buttons li.rrssb-github a {
+			background-color:#444;
+		}
+
+		.rrssb-buttons li.rrssb-github a:hover {
+			background-color:#2b2b2b;
+		}
+
+		.rrssb-buttons li.rrssb-instagram a {
+			background-color:#125688;
+		}
+
+		.rrssb-buttons li.rrssb-instagram a:hover {
+			background-color:#0c3a5b;
+		}
+
+		.rrssb-buttons li.rrssb-print a {
+			background-color:#8d98a2;
+		}
+
+		.rrssb-buttons li.rrssb-print a:hover {
+			background-color:#717f8b;
+		}
+		
+	/*	--------------------------------------------------
+		:: Services Carousel
+		-------------------------------------------------- */
+		
+		.owl-carousel {
+			-webkit-tap-highlight-color:transparent;
+		}
+		
+		.owl-carousel .owl-video-wrapper {
+			background-color:#000; 
+		}
+		
+		.owl-theme .owl-controls {
+			-webkit-tap-highlight-color:transparent;
+		}
+
+		.owl-theme .owl-controls .owl-nav [class*=owl-] {
+			color:#fff;
+			background-color:#d6d6d6;
+		}
+
+		.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+			background-color:#869791;
+			color:#fff;
+		}
+
+		.owl-theme .owl-dots .owl-dot span {
+			background-color:#d6d6d6;
+		}
+
+		.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span {
+			background-color:#869791;
+		}
+		
+	/*	--------------------------------------------------
+		:: Color Picker Theme
+		-------------------------------------------------- */	
+
+		.sp-container {
+			background-color:#fdfdfd;
+			border:1px solid #ddd;
+		}
+		
+		.sp-color, .sp-hue {
+			border:none;
+		}
+		
+		.sp-alpha-handle {
+			border:1px solid #fff;
+			background-color:#fff;
+		}
+		
+		.sp-input {	
+			border:1px solid #ddd;
+			color:#777;
+		}
+		
+		.sp-input:focus  {
+			border:1px solid #bbb;
+		}
+		
+		.sp-input.sp-validation-error {
+			background-color:#fdf9f9;
+			border:1px solid #f9c5c5;
+		}
+		
+		.sp-picker-container , .sp-palette-container {
+			border-left:1px solid #ddd;
+		}
+		
+		.sp-dragger,
+		.sp-slider {
+			background-color:#fff;
+		}
+
+		.sp-replacer:hover, .sp-replacer.sp-active {
+			color:#fff;
+		}
+
+		.sp-container button {
+			background-color:#3c9ad0;
+			color:#fff;
+		}
+		
+		.sp-container button:hover {
+			background-color:#3c9ad0;
+		}
+		
+		.sp-container button:active {
+			background-color:#3c9ad0;
+		}
+		
+		.sp-cancel {
+			background-color:#e04c69;
+			color:#fff;
+		}
+		
+		.sp-cancel:hover {
+			background-color:#e04c69;
+		}
+		
+		.sp-palette-container {
+			border:none;
+		}
+
+		.sp-palette-only .sp-palette-container {
+			border:none;
+		}
+
+		.sp-palette span:hover, .sp-palette span.sp-thumb-active {
+			color:#fff;
+		}
+
+		.sp-palette .sp-thumb-inner {
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+		}
+
+		.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner:before {
+			color:#fff;
+		}
+
+		.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner:before {
+			color:#fff;
+		}
+		
+		.sp-clear-display:before {
+			color:#fff;
+		}
+		
+		.sp-clear.sp-clear-display {
+			background-color:#e04c69;
+		}
+		
+		.sp-sat {
+			background-image:-webkit-gradient(linear,  0 0, 100% 0, from(#FFF), to(rgba(204, 154, 129, 0)));
+			background-image:-webkit-linear-gradient(left, #FFF, rgba(204, 154, 129, 0));
+			background-image:-moz-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:-o-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:-ms-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:linear-gradient(to right, #fff, rgba(204, 154, 129, 0));
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr=#FFFFFFFF, endColorstr=#00CC9A81)";
+			filter :progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr='#FFFFFFFF', endColorstr='#00CC9A81');
+		}
+		
+		.sp-val {
+			background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#000000), to(rgba(204, 154, 129, 0)));
+			background-image:-webkit-linear-gradient(bottom, #000000, rgba(204, 154, 129, 0));
+			background-image:-moz-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:-o-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:-ms-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:linear-gradient(to top, #000, rgba(204, 154, 129, 0));
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00CC9A81, endColorstr=#FF000000)";
+			filter :progid:DXImageTransform.Microsoft.gradient(startColorstr='#00CC9A81', endColorstr='#FF000000');
+		}
+
+		.sp-hue {
+			background:-moz-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-ms-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-o-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-webkit-gradient(linear, left top, left bottom, from(#ff0000), color-stop(0.17, #ffff00), color-stop(0.33, #00ff00), color-stop(0.5, #00ffff), color-stop(0.67, #0000ff), color-stop(0.83, #ff00ff), to(#ff0000));
+			background:-webkit-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:linear-gradient(to bottom, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+		}
+		
+	/*	--------------------------------------------------
+		:: Datepicker
+		-------------------------------------------------- */
+		
+		.ui-datepicker .ui-datepicker-header { 
+			background-color:#fff;
+			border-left:1px solid #eee; 
+			border-right:1px solid #eee; 
+			border-bottom:1px solid #eee; 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-prev:before { 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-next:before { 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-calendar {
+			background-color:#fff;
+			border-left:1px solid #eee; 
+			border-right:1px solid #eee; 
+			border-bottom:1px solid #eee; 
+			color:#999;
+		}
+		
+		.ui-datepicker-calendar .ui-state-default{
+			color:#999;
+			border:1px solid transparent;
+		}
+		
+		.ui-datepicker-calendar .ui-state-hover{
+			background-color:#79b3e2;
+			border:1px solid #79b3e2;
+			color:#fff;
+		}
+		
+		.ui-datepicker-calendar .ui-state-highlight{
+			background-color:#79b3e2;
+			border:1px solid #79b3e2;
+			color:#fff;
+		}
+		
+		.ui-datepicker-calendar .ui-state-active{
+			background-color:#5ad98e;
+			border:1px solid #5ad98e;
+			color:#fff;
+		}
+		
+		.ui-datepicker .ui-datepicker-calendar span {
+			color:#bbb;
+		}
+		
+		.ui-datepicker .ui-datepicker-today a {
+			background-color:#5ad98e;
+			border:1px solid #5ad98e;
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slider
+		-------------------------------------------------- */
+		
+		.ui-slider {
+			border:1px solid #ddd;
+		}
+		
+		.ui-slider .ui-slider-handle {
+			border:1px solid #ddd;
+			background-color:#f6f6f6;
+		}
+		
+		.ui-slider .ui-slider-range {
+			background-color:#f5f5f5;
+		}
+
+	/*	--------------------------------------------------
+		:: Custom Slider
+		-------------------------------------------------- */
+		
+		.ui-slider-pips .ui-slider-pip { 
+			color:#999;
+		}
+
+		.ui-slider-pips .ui-slider-line {
+			background-color:#999;
+		}
+
+		.ui-slider-pip:hover .ui-slider-label {
+			color:#999;
+		}
+
+		.ui-slider-float .ui-slider-tip,
+		.ui-slider-float .ui-slider-tip-label {
+			background-color:#3c9ad0;
+		    border:1px solid #1f77aa;
+			color:#fff;
+		}
+	  
+		.ui-slider-float .ui-slider-tip:after,
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:after {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+
+		.ui-slider-float .ui-slider-tip:before,
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:before {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+		
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:after {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:before {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}

@@ -1,0 +1,231 @@
+/*
+    Description: 	Contact Framework
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Grid Container
+	-------------------------------------------------- */
+
+    .grid-container {
+	    position:relative;
+		margin:0 auto;
+	    width:100%;
+		padding:0;
+		-webkit-box-sizing:border-box;
+	       -moz-box-sizing:border-box; 
+	            box-sizing:border-box;
+    }
+	
+	.grid-container:after { 
+	    content:""; 
+	    display:block; 
+	    height:0; 
+	    clear:both; 
+	    visibility:hidden; 
+	}
+
+/*	--------------------------------------------------
+	:: Float Columns to display Inline
+	-------------------------------------------------- */
+
+    .grid-container .column {
+	    display:inline-block;
+	    float:left;
+	    padding:0 1%;
+    }
+	
+/*	-------------------------------------------------------
+	:: Columns Width in % for Fluid Container
+	------------------------------------------------------- */
+    
+    .grid-container .column.one { width:6.333333333333333%; }
+    .grid-container .column.two { width:14.666666666666667%; }
+    .grid-container .column.three { width:23%; }
+    .grid-container .column.four { width:31.33333333333334%; }
+    .grid-container .column.five { width:39.66666666666667%; }
+    .grid-container .column.six { width:48%; }
+    .grid-container .column.seven { width:56.33333333333334%; }
+    .grid-container .column.eight { width:64.66666666666667%; }
+    .grid-container .column.nine { width:73%; }
+    .grid-container .column.ten { width:81.33333333333334%; }
+    .grid-container .column.eleven { width:89.66666666666667%; }
+    .grid-container .column.twelve { width:98%; }
+
+/*	-------------------------------------------------------
+	:: Columns Offsets Desktop
+	------------------------------------------------------- */
+
+    .grid-container .column.offsetdes-one { margin-left:8.333333333333333%; }
+    .grid-container .column.offsetdes-two { margin-left:16.666666666666667%; }
+    .grid-container .column.offsetdes-three { margin-left:25%; }
+    .grid-container .column.offsetdes-four { margin-left:33.33333333333334%; }
+    .grid-container .column.offsetdes-five { margin-left:41.66666666666667%; }
+    .grid-container .column.offsetdes-six { margin-left:50%; }
+    .grid-container .column.offsetdes-seven { margin-left:58.33333333333334%; }
+    .grid-container .column.offsetdes-eight { margin-left:66.66666666666667%; }
+    .grid-container .column.offsetdes-nine { margin-left:75%; }
+    .grid-container .column.offsetdes-ten { margin-left:83.33333333333334%; }
+    .grid-container .column.offsetdes-eleven { margin-left:91.66666666666667%; }
+    .grid-container .column.offsetdes-twelve { margin-left:100%; }
+
+/*	--------------------------------------------------
+	:: Columns Width with no space Left Desktop
+	-------------------------------------------------- */
+	
+	.grid-container .column.one.nospacedesl { width:7.333333333333333%; padding-left:0; }
+    .grid-container .column.two.nospacedesl { width:15.66666666666667%; padding-left:0; }
+    .grid-container .column.three.nospacedesl { width:24%; padding-left:0; }
+    .grid-container .column.four.nospacedesl { width:32.33333333333334%; padding-left:0; }
+    .grid-container .column.five.nospacedesl { width:40.66666666666667%; padding-left:0; }
+    .grid-container .column.six.nospacedesl { width:49%; padding-left:0; }
+    .grid-container .column.seven.nospacedesl { width:57.33333333333334%; padding-left:0; }
+    .grid-container .column.eight.nospacedesl { width:65.66666666666667%; padding-left:0; }
+    .grid-container .column.nine.nospacedesl { width:74%; padding-left:0; }
+    .grid-container .column.ten.nospacedesl { width:82.33333333333334%; padding-left:0; }
+    .grid-container .column.eleven.nospacedesl { width:90.66666666666667%; padding-left:0; }
+    .grid-container .column.twelve.nospacedesl { width:99%; padding-left:0; }
+
+/*	--------------------------------------------------
+	:: Columns Width with no space Right Desktop
+	-------------------------------------------------- */
+	
+	.grid-container .column.one.nospacedesr { width:7.333333333333333%; padding-right:0; }
+    .grid-container .column.two.nospacedesr { width:15.66666666666667%; padding-right:0; }
+    .grid-container .column.three.nospacedesr { width:24%; padding-right:0; }
+    .grid-container .column.four.nospacedesr { width:32.33333333333334%; padding-right:0; }
+    .grid-container .column.five.nospacedesr { width:40.66666666666667%; padding-right:0; }
+    .grid-container .column.six.nospacedesr { width:49%; padding-right:0; }
+    .grid-container .column.seven.nospacedesr { width:57.33333333333334%; padding-right:0; }
+    .grid-container .column.eight.nospacedesr { width:65.66666666666667%; padding-right:0; }
+    .grid-container .column.nine.nospacedesr { width:74%; padding-right:0; }
+    .grid-container .column.ten.nospacedesr { width:82.33333333333334%; padding-right:0; }
+    .grid-container .column.eleven.nospacedesr { width:90.66666666666667%; padding-right:0; }
+    .grid-container .column.twelve.nospacedesr { width:99%; padding-right:0; }
+
+/*	--------------------------------------------------
+	:: Columns Width with no space Desktop
+	-------------------------------------------------- */
+	
+	.grid-container .column.one.nospacedes { width:8.333333333333333%; padding:0; }
+    .grid-container .column.two.nospacedes { width:16.66666666666667%; padding:0; }
+    .grid-container .column.three.nospacedes { width:25%; padding:0; }
+    .grid-container .column.four.nospacedes { width:33.33333333333334%; padding:0; }
+    .grid-container .column.five.nospacedes { width:41.66666666666667%; padding:0; }
+    .grid-container .column.six.nospacedes { width:50%; padding:0; }
+    .grid-container .column.seven.nospacedes { width:58.33333333333334%; padding:0; }
+    .grid-container .column.eight.nospacedes { width:66.66666666666667%; padding:0; }
+    .grid-container .column.nine.nospacedes { width:75%; padding:0; }
+    .grid-container .column.ten.nospacedes { width:83.33333333333334%; padding:0; }
+    .grid-container .column.eleven.nospacedes { width:91.66666666666667%; padding:0; }
+    .grid-container .column.twelve.nospacedes { width:100%; padding:0; }
+
+/*	--------------------------------------------------
+	:: Grid Columns for 960px and below
+	-------------------------------------------------- */
+	
+	@media only screen and (max-width: 960px) {
+	
+	    .grid-container .column.one,
+		.grid-container .column.two,
+		.grid-container .column.three,
+		.grid-container .column.four,
+		.grid-container .column.five,
+		.grid-container .column.six,
+		.grid-container .column.seven,
+		.grid-container .column.eight,
+		.grid-container .column.nine,
+		.grid-container .column.ten,
+		.grid-container .column.eleven,
+		.grid-container .column.twelve {
+		    width:98%;
+			padding:0 1%;
+		}
+		
+	/*	--------------------------------------------------
+		:: Columns Width without Block Columns Responsive
+		-------------------------------------------------- */
+		
+		.grid-container .column.one.floatres { width:6.333333333333333%; }
+		.grid-container .column.two.floatres { width:14.666666666666667%; }
+		.grid-container .column.three.floatres { width:23%; }
+		.grid-container .column.four.floatres { width:31.33333333333334%; }
+		.grid-container .column.five.floatres { width:39.66666666666667%; }
+		.grid-container .column.six.floatres { width:48%; }
+		.grid-container .column.seven.floatres { width:56.33333333333334%; }
+		.grid-container .column.eight.floatres { width:64.66666666666667%; }
+		.grid-container .column.nine.floatres { width:73%; }
+		.grid-container .column.ten.floatres { width:81.33333333333334%; }
+		.grid-container .column.eleven.floatres { width:89.66666666666667%; }
+		.grid-container .column.twelve.floatres { width:98%; }
+		
+	/*	--------------------------------------------------
+		:: Columns Width with Offsets Responsive
+		-------------------------------------------------- */
+        
+        .grid-container .column.offsetres-one,
+		.grid-container .column.offsetres-two,
+		.grid-container .column.offsetres-three,
+		.grid-container .column.offsetres-four,
+		.grid-container .column.offsetres-five,
+		.grid-container .column.offsetres-six,
+		.grid-container .column.offsetres-seven,
+		.grid-container .column.offsetres-eight,
+		.grid-container .column.offsetres-nine,
+		.grid-container .column.offsetres-ten,
+		.grid-container .column.offsetres-eleven,
+		.grid-container .column.offsetres-twelve { width:98%; margin-left:0; padding:0 1%; }
+		
+	/*	--------------------------------------------------
+		:: Columns Width without space Left Responsive
+		-------------------------------------------------- */
+		
+		.grid-container .column.one.nospaceresl,
+		.grid-container .column.two.nospaceresl,
+		.grid-container .column.three.nospaceresl,
+		.grid-container .column.four.nospaceresl,
+		.grid-container .column.five.nospaceresl,
+		.grid-container .column.six.nospaceresl,
+		.grid-container .column.seven.nospaceresl,
+		.grid-container .column.eight.nospaceresl,
+		.grid-container .column.nine.nospaceresl,
+		.grid-container .column.ten.nospaceresl,
+		.grid-container .column.eleven.nospaceresl,
+		.grid-container .column.twelve.nospaceresl { width:100%; padding-left:0; }
+		
+	/*	--------------------------------------------------
+		:: Columns Width with space Right Responsive
+		-------------------------------------------------- */
+		
+		.grid-container .column.one.nospaceresr,
+		.grid-container .column.two.nospaceresr,
+		.grid-container .column.three.nospaceresr,
+		.grid-container .column.four.nospaceresr,
+		.grid-container .column.five.nospaceresr,
+		.grid-container .column.six.nospaceresr,
+		.grid-container .column.seven.nospaceresr,
+		.grid-container .column.eight.nospaceresr,
+		.grid-container .column.nine.nospaceresr,
+		.grid-container .column.ten.nospaceresr,
+		.grid-container .column.eleven.nospaceresr,
+		.grid-container .column.twelve.nospaceresr { width:100%; padding-right:0; }
+		
+	/*	--------------------------------------------------
+		:: Columns Width with no space Responsive
+		-------------------------------------------------- */
+
+		.grid-container .column.one.nospaceres,
+		.grid-container .column.two.nospaceres,
+		.grid-container .column.three.nospaceres,
+		.grid-container .column.four.nospaceres,
+		.grid-container .column.five.nospaceres,
+		.grid-container .column.six.nospaceres,
+		.grid-container .column.seven.nospaceres,
+		.grid-container .column.eight.nospaceres,
+		.grid-container .column.nine.nospaceres,
+		.grid-container .column.ten.nospaceres,
+		.grid-container .column.eleven.nospaceres,
+		.grid-container .column.twelve.nospaceres { width:100%; padding:0; }
+		
+	}

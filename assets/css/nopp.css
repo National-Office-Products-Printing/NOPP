@@ -378,7 +378,9 @@ img.support {
 }
 input,
 textarea,
-select {
+select,
+.captcha,
+.captcha-code {
   font-family: "Source Sans Pro", sans-serif;
   padding: 1rem;
   font-size: 1rem;
@@ -389,7 +391,7 @@ select {
   border: 2px solid rgba(0, 64, 133, 0.1);
   margin-bottom: 1em;
   margin-top: 0.25em;
-
+  margin-right: -5px;
   transition: border 0.1s ease-in-out;
 }
   label.message {
@@ -397,12 +399,12 @@ select {
     margin-right: 0;
   }
   @media (min-width: 50em) {
-    label {
+    label, .captcha {
       width: 49%;
       display: inline-block;
       vertical-align: top;
     }
-    label:nth-child(even) {
+    label:nth-child(odd) {
       margin-right: 1.35%;
     }
   }
@@ -423,16 +425,34 @@ input.submit {
     background: #445878;
     cursor: pointer;
   }
-  .captcha-hidden {
-    position:absolute;
-    visibility:hidden;
-    margin:0;
-    padding:0;
-    width: 0;
+.captcha {
+  background: rgba(0, 64, 133, 1);
+  border: none;
+  padding: 0.8rem 0 !important;
+  margin-right: -4px !important;
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+  .captcha-code {
+    margin-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
   }
-  .error.gcaptcha,
-  .success.gcaptcha {
-    margin:0 0 10px 0;
+  @media screen and (min-width: 50em){
+    .captcha {
+      margin-right: -4px !important;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0.25em;
+    }
+    .captcha-code {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 0.25em;
+      width: 104%;
+      margin-top: 0.25em;
+    }
   }
 
 /* Errors and other random shit */

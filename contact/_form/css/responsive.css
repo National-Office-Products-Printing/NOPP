@@ -1,0 +1,507 @@
+/*
+    Description: 	Contact Framework
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 768px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 1199px) {
+        
+		.form .section .error #uploadsingle2.select-upload,
+		.form .section .error #upload2.upload,
+		.form .section .error #uploadsingle3.select-upload,
+		.form .section .error #upload3.upload{
+			margin:10px 0;
+		}
+				
+	}
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 768px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 960px) and (max-width: 1199px) {
+        
+		.container-fixed { max-width:768px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+		
+	/*	--------------------------------------------------
+		:: Color Picker
+		-------------------------------------------------- */	
+	
+		.sp-palette {
+			width:192px;
+		}
+		
+		.sp-picker-container {
+			display:none;
+		}
+		
+		.sp-container button {
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Upload Margin
+		-------------------------------------------------- */
+		
+		.form .section .error #uploadsingle2.select-upload,
+		.form .section .error #upload2.upload,
+		.form .section .error #uploadsingle3.select-upload,
+		.form .section .error #upload3.upload{
+			margin:10px 0;
+		}
+				
+	}
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 768px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        
+		.container-fixed { max-width:768px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+				
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Header Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-header-payment .card-visa,
+		.form .box-payment .box-header-payment .card-electron,
+		.form .box-payment .box-header-payment .card-mastercard,
+		.form .box-payment .box-header-payment .card-maestro,
+		.form .box-payment .box-header-payment .card-amex,
+		.form .box-payment .box-header-payment .card-discover,
+		.form .box-payment .box-header-payment .card-paypal,
+		.form .box-payment .box-header-payment .card-stripe,
+		.form .box-payment .box-header-payment .card-braintree{
+			display:none;
+		}
+	
+	/*	--------------------------------------------------
+		:: Box Section Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-section-payment .error #card-cvv.input-right,
+		.form .box-payment .box-section-payment .error #stripe-year.input-right,
+		.form .box-payment .box-section-payment .error #stripe-cvc.input-right{
+			margin:10px 0;
+		}
+		
+		.form .box-payment .box-section-payment .column.four.nospace,
+		.form .box-payment .box-section-payment .column.six.nospace.nospacedesr.nospaceresr{
+			width:100%;
+			padding:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Rating
+		-------------------------------------------------- */
+		
+		.form .rating-group h4,
+		.form .rating {
+			display:block;
+			text-align:left;
+			margin:0;
+			float:none;
+			width:100%;
+		}
+		
+	/*	--------------------------------------------------
+		:: Color Picker
+		-------------------------------------------------- */
+		
+		.sp-palette {
+			width:192px;
+		}
+		
+		.sp-picker-container {
+			display:none;
+		}
+		
+		.sp-container button {
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Upload Margin
+		-------------------------------------------------- */
+		
+		.form .section .error #uploadsingle2.select-upload,
+		.form .section .error #upload2.upload,
+		.form .section .error #uploadsingle3.select-upload,
+		.form .section .error #upload3.upload{
+			margin:10px 0;
+		}
+		
+	}
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 480px
+	-------------------------------------------------- */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        
+		.container-fixed { max-width:420px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+				
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Header Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-header-payment .card-visa,
+		.form .box-payment .box-header-payment .card-electron,
+		.form .box-payment .box-header-payment .card-mastercard,
+		.form .box-payment .box-header-payment .card-maestro,
+		.form .box-payment .box-header-payment .card-amex,
+		.form .box-payment .box-header-payment .card-discover,
+		.form .box-payment .box-header-payment .card-paypal,
+		.form .box-payment .box-header-payment .card-stripe,
+		.form .box-payment .box-header-payment .card-braintree{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Newsletter and Sendtome
+		-------------------------------------------------- */
+		
+		.form .radio + .radiolabel.nomargin::before,
+		.form .checkbox + .checkboxlabel.nomargin::before{
+			display:block;
+			margin:10px 0 0 0;
+		}
+		
+		.form .radio + .radiolabel.nomargin::after,
+		.form .checkbox + .checkboxlabel.nomargin::after{
+			margin-left:0;
+			margin-top:5px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio & Checkboxes
+		-------------------------------------------------- */
+		
+		.form .radio-group,
+		.form .checkbox-group{
+			display:block;
+		}
+		
+		.form .radio-group .hover-group,
+		.form .checkbox-group .hover-group{
+			display:block;
+			margin:5px 0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio & Checkboxes
+		-------------------------------------------------- */
+		
+		.form .radio-slick-group,
+		.form .checkbox-slick-group,
+		.form .radio-slick + .slicklabel::after,
+		.form .checkbox-slick + .slicklabel::after{
+			display:block;
+		}
+		
+		.form .radio-slick + .slicklabel.noblock::after,
+		.form .checkbox-slick + .slicklabel.noblock::after{
+			display:inline-block;
+		}
+		
+		.form .radio-slick-group .slick-hover-group,
+		.form .checkbox-slick-group .slick-hover-group{
+			display:block;
+			margin:5px 0;
+		}
+	
+	/*	--------------------------------------------------
+		:: Box Section Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-section-payment .error #card-cvv.input-right,
+		.form .box-payment .box-section-payment .error #stripe-year.input-right,
+		.form .box-payment .box-section-payment .error #stripe-cvc.input-right{
+			margin:10px 0;
+		}
+		
+		.form .box-payment .box-section-payment #card-number.visa,
+		.form .box-payment .box-section-payment #card-number.visaelectron,
+		.form .box-payment .box-section-payment #card-number.mastercard,
+		.form .box-payment .box-section-payment #card-number.maestro,
+		.form .box-payment .box-section-payment #card-number.amex,
+		.form .box-payment .box-section-payment #card-number.discover,
+		.form .box-payment .box-section-payment #card-number.jcb,
+		.form .box-payment .box-section-payment #card-number.dinersclub,
+		.form .box-payment .box-section-payment #stripe-number.visa,
+		.form .box-payment .box-section-payment #stripe-number.visaelectron,
+		.form .box-payment .box-section-payment #stripe-number.mastercard,
+		.form .box-payment .box-section-payment #stripe-number.maestro,
+		.form .box-payment .box-section-payment #stripe-number.amex,
+		.form .box-payment .box-section-payment #stripe-number.discover,
+		.form .box-payment .box-section-payment #stripe-number.jcb,
+		.form .box-payment .box-section-payment #stripe-number.dinersclub{
+			background-position:85% 2px;
+		}
+		
+		.form .box-payment .box-section-payment .column.four.nospace,
+		.form .box-payment .box-section-payment .column.six.nospace.nospacedesr.nospaceresr{
+			width:100%;
+			padding:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Rating
+		-------------------------------------------------- */
+		
+		.form .rating-group h4,
+		.form .rating {
+			display:block;
+			text-align:left;
+			margin:0;
+			float:none;
+			width:100%;
+		}
+		
+	/*	--------------------------------------------------
+		:: Color Picker
+		-------------------------------------------------- */
+		
+		.sp-palette {
+			width:192px;
+		}
+		
+		.sp-picker-container {
+			display:none;
+		}
+		
+		.sp-container button {
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Upload Margin
+		-------------------------------------------------- */
+		
+		.form .section .error #uploadsingle2.select-upload,
+		.form .section .error #upload2.upload,
+		.form .section .error #uploadsingle3.select-upload,
+		.form .section .error #upload3.upload{
+			margin:10px 0;
+		}
+		
+    }
+
+/*	--------------------------------------------------
+	:: Note: Design for a width of 320px
+	-------------------------------------------------- */
+
+    @media only screen and (max-width: 479px) {
+        
+		.container-fixed { max-width:300px; width:100%; }
+	    .container-fluid { max-width:100%; width:100%; } /* ADD HERE YOUR FORM WIDTH */
+		
+		.form .pre-header-description { padding:25px; }
+		.form .pre-header-description .company-holder { float:none; width:100%; }
+		.form .pre-header-description .company-description { display:none; }
+		.form .pre-header-description .company-holder .company-logo{ text-align:center; margin:0 auto; }
+		
+		.form .header h4 { line-height:22px; }
+		
+		.form .section .error #lastname.input-right{
+			margin:10px 0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Header Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-header-payment .card-visa,
+		.form .box-payment .box-header-payment .card-electron,
+		.form .box-payment .box-header-payment .card-mastercard,
+		.form .box-payment .box-header-payment .card-maestro,
+		.form .box-payment .box-header-payment .card-amex,
+		.form .box-payment .box-header-payment .card-discover,
+		.form .box-payment .box-header-payment .card-paypal,
+		.form .box-payment .box-header-payment .card-stripe,
+		.form .box-payment .box-header-payment .card-braintree{
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Newsletter and Sendtome
+		-------------------------------------------------- */
+		
+		.form .radio + .radiolabel.nomargin::before,
+		.form .checkbox + .checkboxlabel.nomargin::before{
+			display:block;
+			margin:10px 0 0 0;
+		}
+		
+		.form .radio + .radiolabel.nomargin::after,
+		.form .checkbox + .checkboxlabel.nomargin::after{
+			margin-left:0;
+			margin-top:5px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio & Checkboxes
+		-------------------------------------------------- */
+		
+		.form .radio-group,
+		.form .checkbox-group{
+			display:block;
+		}
+		
+		.form .radio-group .hover-group,
+		.form .checkbox-group .hover-group{
+			display:block;
+			margin:5px 0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio & Checkboxes
+		-------------------------------------------------- */
+		
+		.form .radio-slick-group,
+		.form .checkbox-slick-group,
+		.form .radio-slick + .slicklabel::after,
+		.form .checkbox-slick + .slicklabel::after{
+			display:block;
+		}
+		
+		.form .radio-slick + .slicklabel.noblock::after,
+		.form .checkbox-slick + .slicklabel.noblock::after{
+			display:inline-block;
+		}
+		
+		.form .radio-slick-group .slick-hover-group,
+		.form .checkbox-slick-group .slick-hover-group{
+			display:block;
+			margin:5px 0;
+		}
+	
+	/*	--------------------------------------------------
+		:: Box Header Services
+		-------------------------------------------------- */
+		
+		.form .box-services .box-header-services h4{
+			line-height:20px;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Section Payment
+		-------------------------------------------------- */
+		
+		.form .box-payment .box-section-payment .tabslabel{
+			display:block;
+			margin:5px 20px;
+			padding:0;
+		}
+		
+		.form .box-payment .box-section-payment .section-one + .tabslabel { 
+			margin-top:10px;
+		}
+		
+		.form .box-payment .box-section-payment .section-three + .tabslabel { 
+			margin-bottom:10px;
+		}
+		
+		.form .box-payment .box-section-payment .error #card-cvv.input-right,
+		.form .box-payment .box-section-payment .error #stripe-year.input-right,
+		.form .box-payment .box-section-payment .error #stripe-cvc.input-right{
+			margin:10px 0;
+		}
+		
+		.form .box-payment .box-section-payment #card-number.visa,
+		.form .box-payment .box-section-payment #card-number.visaelectron,
+		.form .box-payment .box-section-payment #card-number.mastercard,
+		.form .box-payment .box-section-payment #card-number.maestro,
+		.form .box-payment .box-section-payment #card-number.amex,
+		.form .box-payment .box-section-payment #card-number.discover,
+		.form .box-payment .box-section-payment #card-number.jcb,
+		.form .box-payment .box-section-payment #card-number.dinersclub,
+		.form .box-payment .box-section-payment #stripe-number.visa,
+		.form .box-payment .box-section-payment #stripe-number.visaelectron,
+		.form .box-payment .box-section-payment #stripe-number.mastercard,
+		.form .box-payment .box-section-payment #stripe-number.maestro,
+		.form .box-payment .box-section-payment #stripe-number.amex,
+		.form .box-payment .box-section-payment #stripe-number.discover,
+		.form .box-payment .box-section-payment #stripe-number.jcb,
+		.form .box-payment .box-section-payment #stripe-number.dinersclub{
+			background-position:75% 2px;
+		}
+		
+		.form .box-payment .box-section-payment .column.four.nospace,
+		.form .box-payment .box-section-payment .column.six.nospace.nospacedesr.nospaceresr{
+			width:100%;
+			padding:0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Rating
+		-------------------------------------------------- */
+		
+		.form .rating-group h4,
+		.form .rating {
+			display:block;
+			text-align:left;
+			margin:0;
+			float:none;
+			width:100%;
+		}
+		
+	/*	--------------------------------------------------
+		:: Color Picker
+		-------------------------------------------------- */
+		
+		.sp-palette {
+			width:192px;
+		}
+		
+		.sp-picker-container {
+			display:none;
+		}
+		
+		.sp-container button {
+			display:none;
+		}
+		
+	/*	--------------------------------------------------
+		:: Upload Margin
+		-------------------------------------------------- */
+		
+		.form .section .error #uploadsingle2.select-upload,
+		.form .section .error #upload2.upload,
+		.form .section .error #uploadsingle3.select-upload,
+		.form .section .error #upload3.upload{
+			margin:10px 0;
+		}
+		
+    }

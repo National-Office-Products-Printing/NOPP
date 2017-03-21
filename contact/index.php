@@ -1,10 +1,10 @@
 <?php
-    
+
   include dirname(__FILE__).'/php/csrf_protection/csrf-token.php';
   include dirname(__FILE__).'/php/csrf_protection/csrf-class.php';
-  
+
   include dirname(__FILE__).'/php/config/config.php';
-  
+
   $language = array('en' => 'en','pt' => 'pt');
 
   if (isset($_GET['lang']) AND array_key_exists($_GET['lang'], $language)){
@@ -12,8 +12,8 @@
   } else {
     include dirname(__FILE__).'/php/language/en.php';
   }
-  
-?> 
+
+?>
 <!--
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 *                                                       *
@@ -39,12 +39,13 @@
   <link rel="icon" type="image/png" href="../assets/img/favicon.png" />
 
     <!-- Form JS files -->
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/jquery.custom.js"></script>
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/jquery.validate.js"></script>
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/jquery.methods.js"></script>
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/jquery.form.js"></script>
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/localization/messages_en.js"></script>
-    <script type="text/javascript" src="<?php echo $baseurl;?>js/jquery.tooltipster.js"></script>
+    <script src="<?php echo $baseurl;?>js/jquery.custom.js"></script>
+    <script src="<?php echo $baseurl;?>js/jquery.validate.js"></script>
+    <script src="<?php echo $baseurl;?>js/jquery.methods.js"></script>
+    <script src="<?php echo $baseurl;?>js/jquery.form.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="<?php echo $baseurl;?>js/localization/messages_en.js"></script>
+    <script src="<?php echo $baseurl;?>js/jquery.tooltipster.js"></script>
 </head>
 <body data-spy="scroll">
           <header id="main-nav">
@@ -77,7 +78,7 @@
             <div class="frame">
               <div class="bit-1 text-center">
                 <h1>Need to get ahold of us?</h1>
-              </div>  
+              </div>
             </div>
           </section>
           <section id="map" class="blue-box hide">
@@ -92,59 +93,15 @@
           <section id="nopp-colors">
             <div class="frame">
               <div class="column-main">
-                <form method="post" action="<?php echo $baseurl;?>php/processor.php" id="contact" enctype="multipart/form-data"> 
-                  <fieldset>
-                    <div id="contact-message"></div>
-                    <?php echo CSRF::make('contact-form')->protect(); ?>
-                    <label>
-                      <i class="fa fa-user color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_firstname'];?></strong>
-                      <input type="text" id="firstname" name="firstname" maxlength="30">
-                    </label>
-                    <label>
-                      <i class="fa fa-user color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_lastname'];?></strong>
-                      <input type="text" id="lastname" name="lastname" maxlength="30">
-                    </label>
-                    <label>
-                      <i class="fa fa-envelope-o color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_useremail'];?></strong>
-                      <input type="email" id="useremail" name="useremail" maxlength="70">
-                    </label>
-                    <label>
-                      <i class="fa fa-phone color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_userphone'];?></strong>
-                      <input type="text" id="userphone" name="userphone" maxlength="70">
-                    </label>
-                    <i class="fa fa-question color-3">&nbsp;</i> <strong><?php echo $lang['form_option_1_department'];?></strong>
-                    <select id="department" name="department" class="select">
-                      <option value="<?php echo $lang['form_option_2_department']?>"><?php echo $lang['form_option_2_department'];?></option>
-                      <option value="<?php echo $lang['form_option_3_department']?>"><?php echo $lang['form_option_3_department'];?></option>
-                      <option value="<?php echo $lang['form_option_4_department']?>"><?php echo $lang['form_option_4_department'];?></option>
-                      <option value="<?php echo $lang['form_option_5_department']?>"><?php echo $lang['form_option_5_department'];?></option>
-                      <option value="<?php echo $lang['form_option_6_department']?>"><?php echo $lang['form_option_6_department'];?></option>
-                    </select>
-                    <label class="message">
-                      <i class="fa fa-pencil color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_message'];?></strong>
-                      <textarea rows="10" id="usermessage" name="usermessage" maxlength="1000"></textarea>
-                    </label>
-                    <i class="fa fa-key color-3">&nbsp;</i> <strong><?php echo $lang['form_placeholder_captcha'];?></strong><br>
-                    <?php if($captcha == true){ ?>
-                    <label class="captcha text-center">
-                      <img src="<?php echo $baseurl;?>php/captcha/captcha.php" alt="captcha">
-                    </label>                      
-                    <label for="captcha">
-                      <input type="text" class="captcha-code" name="captcha" id="captcha" maxlength="6">
-                    </label>
-                    <?php } ?>
-                    <div class="bit-1 no-pad">
-                      <button type="submit" id="contact-button" class="button-1"><?php echo $lang['form_button_submit'];?></button>
-                      <button type="reset" class="button-1"><?php echo $lang['form_button_reset'];?></button>
-                    </div>
-                  </fieldset>
-                </form>
+                <h3 class="color-1">New features on their way!</h3>
+                <p>In a constant effort to help make working with us a bit easier, we're hard at work adding new features to this page. Soon, you'll have the ability to contact any of our departments directly, as well as the option to upload your printable files and artwork to us.</p>
+                <p>Still need to get ahold of us right away? Any of the info provided on this page can be used to reach us.</p>
               </div>
               <div class="column-sidebar">
                 <div class="frame no-pad">
                   <div class="bit-1">
                     <h4 class="heading">Sault Ste. Marie, MI</h4>
-                    <div itemprop="department" itemscope itemtype="http://schema.org/Store">   
+                    <div itemprop="department" itemscope itemtype="http://schema.org/Store">
                       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <span itemprop="streetAddress">405 Ashmun St.</span> &bull;
                         <span itemprop="postOfficeBoxNumber"> PO Box 610</span><br>
@@ -161,7 +118,7 @@
                   <div class="bit-1">
                     <hr>
                     <h4 class="heading">Cheboygan, MI</h4>
-                    <div itemprop="department" itemscope itemtype="http://schema.org/Store">  
+                    <div itemprop="department" itemscope itemtype="http://schema.org/Store">
                       <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <span itemprop="streetAddress">514&#160;N. Main St.</span><br>
                         <span itemprop="addressLocality">Cheboygan</span>,
@@ -234,7 +191,7 @@
         </div>
       </div>
     </footer>
-        
+
     <!-- Let's try to keep all the JS files down here, okay? Thanks! -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -1,0 +1,20 @@
+# disable directory browsing
+Options All -Indexes
+
+# secure htaccess file
+<Files .htaccess>
+   order allow,deny
+   deny from all
+</Files>
+
+# Replace your-domain for your domain and folder
+RewriteEngine on
+
+RewriteCond %{HTTP_REFERER} !^http://your-domain.com/folder/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.your-domain.com/folder/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^https://your-domain.com/folder/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.your-domain.com/folder/.*$ [NC]
+RewriteRule .*\.(jpg|jpeg|pjpeg|png|gif|tiff|bmp|txt|ppt|pptx|doc|docx|xls|xlsx|pdf|zip)$ http://your-domain.com/folder/upload/normal/single/ [R,NC]
+RewriteRule .*\.(jpg|jpeg|pjpeg|png|gif|tiff|bmp|txt|ppt|pptx|doc|docx|xls|xlsx|pdf|zip)$ http://www.your-domain.com/folder/upload/normal/single/ [R,NC]
+RewriteRule .*\.(jpg|jpeg|pjpeg|png|gif|tiff|bmp|txt|ppt|pptx|doc|docx|xls|xlsx|pdf|zip)$ https://your-domain.com/folder/upload/normal/single/ [R,NC]
+RewriteRule .*\.(jpg|jpeg|pjpeg|png|gif|tiff|bmp|txt|ppt|pptx|doc|docx|xls|xlsx|pdf|zip)$ https://www.your-domain.com/folder/upload/normal/single/ [R,NC]

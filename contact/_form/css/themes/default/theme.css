@@ -1,0 +1,2733 @@
+/*
+    Description: 	Contact Framework
+    Author: 		InsideLab
+    Version: 		1.0
+*/
+
+/*	--------------------------------------------------
+	:: Body
+	-------------------------------------------------- */
+	
+	body { 
+		background-color:#485160;
+	}
+
+/*	--------------------------------------------------
+	:: Form Blue
+	-------------------------------------------------- */
+
+	.form-default.form-blue-default .pre-header{ 
+		background-color:#3c9ad0;
+	}
+	
+    .form-default.form-blue-default .arrow{
+	    border-left:15px solid transparent;
+	    border-right:15px solid transparent;
+	    border-top:15px solid #3c9ad0;
+    }
+	
+	.form-default.form-blue-default .upload-button,
+	.form-default.form-blue-default .upload-button-slick {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-default.form-blue-default .drop-upload-button {
+		color:#3c9ad0;
+	}
+	
+	.form-default.form-blue-default .append-group i,
+	.form-default.form-blue-default .append-group-right i,
+	.form-default.form-blue-default .append-group-slick-right i{
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+
+	.form-default.form-blue-default .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#3c9ad0;
+	}
+
+	.form-default.form-blue-default .checkbox-slick:checked + .slicklabel::after {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-default.form-blue-default .radio-slick:checked + .slicklabel::after {
+		background-color:#3c9ad0;
+		color:#fff;
+	}
+	
+	.form-default.form-blue-default .rating .rating-input:checked ~ .rating-label,
+	.form-default.form-blue-default .rating .rating-input:hover ~ .rating-label,
+	.form-default.form-blue-default .rating .rating-input ~ .rating-label:hover,
+	.form-default.form-blue-default .rating .rating-input ~ .rating-label:hover ~ .rating-label{ 
+		color:#3c9ad0;
+	}
+	
+	.form-default.form-blue-default .progress-bar .bar {
+		background-color:#3c9ad0;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Green
+	-------------------------------------------------- */
+
+	.form-default.form-green-default .pre-header{ 
+		background-color:#39c176;
+	}
+	
+    .form-default.form-green-default .arrow{
+	    border-left:15px solid transparent;
+	    border-right:15px solid transparent;
+	    border-top:15px solid #39c176;
+    }
+	
+	.form-default.form-green-default .upload-button,
+    .form-default.form-green-default .upload-button-slick {
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-default.form-green-default .drop-upload-button {
+		color:#39c176;
+	}
+	
+	.form-default.form-green-default .append-group i,
+	.form-default.form-green-default .append-group-right i,
+	.form-default.form-green-default .append-group-slick-right i{
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-default.form-green-default .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#39c176;
+	}
+	
+	.form-default.form-green-default .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-default.form-green-default .radio-slick:checked + .slicklabel::after { 
+		background-color:#39c176;
+		color:#fff;
+	}
+	
+	.form-default.form-green-default .rating .rating-input:checked ~ .rating-label,
+	.form-default.form-green-default .rating .rating-input:hover ~ .rating-label,
+	.form-default.form-green-default .rating .rating-input ~ .rating-label:hover,
+	.form-default.form-green-default .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#39c176;
+	}
+	
+	.form-default.form-green-default .progress-bar .bar {
+		background-color:#39c176;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Red
+	-------------------------------------------------- */
+
+	.form-default.form-red-default .pre-header{ 
+		background-color:#e04c69;
+	}
+	
+    .form-default.form-red-default .arrow{
+	    border-left:15px solid transparent;
+	    border-right:15px solid transparent;
+	    border-top:15px solid #e04c69;
+    }
+	
+	.form-default.form-red-default .upload-button,
+    .form-default.form-red-default .upload-button-slick {
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-default.form-red-default .drop-upload-button {
+		color:#e04c69;
+	}
+	
+	.form-default.form-red-default .append-group i,
+	.form-default.form-red-default .append-group-right i,
+	.form-default.form-red-default .append-group-slick-right i{
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-default.form-red-default .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#e04c69;
+	}
+	
+	.form-default.form-red-default .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-default.form-red-default .radio-slick:checked + .slicklabel::after { 
+		background-color:#e04c69;
+		color:#fff;
+	}
+	
+	.form-default.form-red-default .rating .rating-input:checked ~ .rating-label,
+	.form-default.form-red-default .rating .rating-input:hover ~ .rating-label,
+	.form-default.form-red-default .rating .rating-input ~ .rating-label:hover,
+	.form-default.form-red-default .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#e04c69;
+	}
+	
+	.form-default.form-red-default .progress-bar .bar {
+		background-color:#e04c69;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Orange
+	-------------------------------------------------- */
+
+	.form-default.form-orange-default .pre-header{ 
+		background-color:#ed7550;
+	}
+	
+    .form-default.form-orange-default .arrow{
+	    border-left:15px solid transparent;
+	    border-right:15px solid transparent;
+	    border-top:15px solid #ed7550;
+    }
+	
+	.form-default.form-orange-default .upload-button,
+    .form-default.form-orange-default .upload-button-slick {
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-default.form-orange-default .drop-upload-button {
+		color:#ed7550;
+	}
+	
+	.form-default.form-orange-default .append-group i,
+	.form-default.form-orange-default .append-group-right i,
+	.form-default.form-orange-default .append-group-slick-right i{
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-default.form-orange-default .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#ed7550;
+	}
+	
+	.form-default.form-orange-default .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-default.form-orange-default .radio-slick:checked + .slicklabel::after { 
+		background-color:#ed7550;
+		color:#fff;
+	}
+	
+	.form-default.form-orange-default .rating .rating-input:checked ~ .rating-label,
+	.form-default.form-orange-default .rating .rating-input:hover ~ .rating-label,
+	.form-default.form-orange-default .rating .rating-input ~ .rating-label:hover,
+	.form-default.form-orange-default .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#ed7550;
+	}
+	
+	.form-default.form-orange-default .progress-bar .bar {
+		background-color:#ed7550;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Purple
+	-------------------------------------------------- */
+
+	.form-default.form-purple-default .pre-header{ 
+		background-color:#b170bb;
+	}
+	
+    .form-default.form-purple-default .arrow{
+	    border-left:15px solid transparent;
+	    border-right:15px solid transparent;
+	    border-top:15px solid #b170bb;
+    }
+	
+	.form-default.form-purple-default .upload-button,
+    .form-default.form-purple-default .upload-button-slick {
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-default.form-purple-default .drop-upload-button {
+		color:#b170bb;
+	}
+	
+	.form-default.form-purple-default .append-group i,
+	.form-default.form-purple-default .append-group-right i,
+	.form-default.form-purple-default .append-group-slick-right i{
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-default.form-purple-default .box-payment .box-section-payment .input:checked + .tabslabel h4 {
+		color:#fff;
+		background-color:#b170bb;
+	}
+	
+	.form-default.form-purple-default .checkbox-slick:checked + .slicklabel::after { 
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-default.form-purple-default .radio-slick:checked + .slicklabel::after { 
+		background-color:#b170bb;
+		color:#fff;
+	}
+	
+	.form-default.form-purple-default .rating .rating-input:checked ~ .rating-label,
+	.form-default.form-purple-default .rating .rating-input:hover ~ .rating-label,
+	.form-default.form-purple-default .rating .rating-input ~ .rating-label:hover,
+	.form-default.form-purple-default .rating .rating-input ~ .rating-label:hover ~ .rating-label { 
+		color:#b170bb;
+	}
+	
+	.form-default.form-purple-default .progress-bar .bar {
+		background-color:#b170bb;
+	}
+	
+/*	--------------------------------------------------
+	:: Form Light Version
+	-------------------------------------------------- */
+	
+	/*	--------------------------------------------------
+		:: Form Pre-Header
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .pre-header-description {
+			background-color:transparent;
+		}
+		
+		.form-default.form-light-default .pre-header-description .company-holder .company-border .company-logo:after {
+			box-shadow:0 0 0 4px #fff;
+		}
+		
+		.form-default.form-light-default .pre-header-description .company-description h4,
+		.form-default.form-light-default .pre-header-description .company-description p,
+		.form-default.form-light-default .pre-header-description .company-description i,
+		.form-default.form-light-default .pre-header-description .company-description a { 
+			color:#fff;	
+		}
+
+	/*	--------------------------------------------------
+		:: Form Header
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .header{ 
+			background-color:#f5f5f5;
+		}
+		
+		.form-default.form-light-default .header h4,
+		.form-default.form-light-default .header p {  
+			color:#999;		 
+		}
+
+	/*	--------------------------------------------------
+		:: Form Section
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .section { 
+			background-color:#fff;
+		}
+
+		.form-default.form-light-default .input,
+		.form-default.form-light-default .input-right,
+		.form-default.form-light-default .color-right,
+		.form-default.form-light-default .upload,
+		.form-default.form-light-default .upload-right,
+		.form-default.form-light-default .append,
+	    .form-default.form-light-default .append-right,
+		.form-default.form-light-default .stepper,
+		.form-default.form-light-default .clone,
+		.form-default.form-light-default .slider,
+		.form-default.form-light-default .slider-right,
+		.form-default.form-light-default .textarea.resisable,
+		.form-default.form-light-default .textarea.no-resisable,
+		.form-default.form-light-default .textarea-right.resisable,
+		.form-default.form-light-default .textarea-right.no-resisable,
+		.form-default.form-light-default .captcha,
+	    .form-default.form-light-default .static-captcha,
+		.form-default.form-light-default .dinamic-captcha,
+		.form-default.form-light-default .input-slick-right,
+		.form-default.form-light-default .upload-slick-right,
+	    .form-default.form-light-default .append-slick-right,
+		.form-default.form-light-default .clone-slick-right,
+		.form-default.form-light-default .slider-slick-right,
+		.form-default.form-light-default .textarea-slick-right.resisable,
+		.form-default.form-light-default .textarea-slick-right.no-resisable,
+		.form-default.form-light-default .stepper-slick-right,
+        .form-default.form-light-default .captcha-slick-right{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-default.form-light-default .static-captcha-slick-right,
+		.form-default.form-light-default .dinamic-captcha-slick-right{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#777;	
+		}
+		
+		.form-default.form-light-default .drop-upload{
+			background-color:#fff;
+			border:2px dashed #eee;
+			color:#777;	
+		}
+		
+		.form-default.form-light-default .select{
+			background-color:#fff;
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+			border-left:0;
+			border-right:0;
+			color:#ccc;	
+		}
+		
+		.form-default.form-light-default .input-group i,
+		.form-default.form-light-default .input-group-right i,
+		.form-default.form-light-default .color-group-right i,
+		.form-default.form-light-default .clone-group i,
+		.form-default.form-light-default .upload-group i,
+		.form-default.form-light-default .upload-group-right i,
+		.form-default.form-light-default .drop-upload-group i,
+		.form-default.form-light-default .slider-group i,
+		.form-default.form-light-default .slider-group-right i,
+		.form-default.form-light-default .textarea-group i,
+		.form-default.form-light-default .textarea-group-right i,
+		.form-default.form-light-default .input-group-slick-right i,
+		.form-default.form-light-default .upload-group-slick-right i,
+		.form-default.form-light-default .clone-group-slick-right i,
+		.form-default.form-light-default .slider-group-slick-right i,
+		.form-default.form-light-default .textarea-group-slick-right i,
+		.form-default.form-light-default .stepper-group-slick-right i,
+		.form-default.form-light-default .captcha-group-slick-right i{
+			color:#999;
+		}
+	
+		.form-default.form-light-default .input:focus,
+		.form-default.form-light-default .input-right:focus,
+		.form-default.form-light-default .color-right:focus,
+		.form-default.form-light-default .upload:focus,
+		.form-default.form-light-default .upload-right:focus,
+		.form-default.form-light-default .drop-upload:focus,
+		.form-default.form-light-default .append:focus,
+	    .form-default.form-light-default .append-right:focus,
+		.form-default.form-light-default .stepper:focus,
+		.form-default.form-light-default .clone:focus,
+		.form-default.form-light-default .slider:focus,
+		.form-default.form-light-default .slider-right:focus,
+		.form-default.form-light-default .textarea.resisable:focus,
+		.form-default.form-light-default .textarea.no-resisable:focus,
+		.form-default.form-light-default .textarea-right.resisable:focus,
+		.form-default.form-light-default .textarea-right.no-resisable:focus,
+		.form-default.form-light-default .captcha:focus,
+		.form-default.form-light-default .input-slick-right:focus,
+		.form-default.form-light-default .upload-slick-right:focus,
+	    .form-default.form-light-default .append-slick-right:focus,
+		.form-default.form-light-default .clone-slick-right:focus,
+		.form-default.form-light-default .slider-slick-right:focus,
+		.form-default.form-light-default .textarea-slick-right.resisable:focus,
+		.form-default.form-light-default .textarea-slick-right.no-resisable:focus,
+        .form-default.form-light-default .captcha-slick-right:focus,
+		.form-default.form-light-default .stepper-slick-right:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#777;
+		}
+		
+		.form-default.form-light-default .select:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#aaa;
+		}
+
+		.form-default.form-light-default .custom-select:before{
+			background-color:transparent;
+			color:#999;		
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .stepper-group .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-increase{
+			background-color:#fdfdfd;
+		}
+		
+		.form-default.form-light-default .stepper-group .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-decrease{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .stepper-group .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-increase{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .stepper-group .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group .stepper-button-increase i,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group-slick-right .stepper-button-increase i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .clone-wrapper .open-button,
+		.form-default.form-light-default .clone-wrapper .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .close-button{
+			background-color:#fdfdfd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .open-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .close-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .open-button i,
+		.form-default.form-light-default .clone-wrapper .close-button i,
+		.form-default.form-light-default .clone-wrapper-slick .open-button i,
+		.form-default.form-light-default .clone-wrapper-slick .close-button i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .input-group-slick-right .label,
+		.form-default.form-light-default .upload-group-slick-right .label,
+		.form-default.form-light-default .slider-group-slick-right .label,
+		.form-default.form-light-default .textarea-group-slick-right .label,
+		.form-default.form-light-default .captcha-group-slick-right .label,
+		.form-default.form-light-default .clone-group-slick-right .label,
+		.form-default.form-light-default .stepper-group-slick-right .label,
+		.form-default.form-light-default .append-group-slick-right .label{
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Footer
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .footer { 
+			background-color:#f5f5f5;
+		}
+		
+		.form-default.form-light-default .footer p,
+		.form-default.form-light-default .footer .copyright,
+		.form-default.form-light-default .footer .copyright i { 	
+			color:#999;		 
+		}
+
+	/*	--------------------------------------------------
+		:: Button Configuration
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .button{
+			color:#fff;
+		}
+
+	/*	--------------------------------------------------
+		:: Button Colors
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .button-info {
+			background-color:#3c9ad0;
+		}
+
+		.form-default.form-light-default .button-warning {
+			background-color:#ed7550;
+		}
+		
+		.form-default.form-light-default .button-error {
+			background-color:#e04c69;
+		}
+
+		.form-default.form-light-default .button-success {
+			background-color:#39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Placeholders
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .input::-webkit-input-placeholder,
+		.form-default.form-light-default .input-right::-webkit-input-placeholder,
+		.form-default.form-light-default .color-right::-webkit-input-placeholder,
+		.form-default.form-light-default .upload::-webkit-input-placeholder,
+		.form-default.form-light-default .upload-right::-webkit-input-placeholder,
+		.form-default.form-light-default .drop-upload::-webkit-input-placeholder,
+		.form-default.form-light-default .append::-webkit-input-placeholder,
+	    .form-default.form-light-default .append-right::-webkit-input-placeholder,
+		.form-default.form-light-default .stepper::-webkit-input-placeholder,
+		.form-default.form-light-default .clone::-webkit-input-placeholder,
+		.form-default.form-light-default .slider::-webkit-input-placeholder,
+		.form-default.form-light-default .slider-right::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-right.no-resisable::-webkit-input-placeholder,
+        .form-default.form-light-default .captcha::-webkit-input-placeholder,
+	    .form-default.form-light-default .static-captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .dinamic-captcha::-webkit-input-placeholder,
+        .form-default.form-light-default .input-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .upload-slick-right::-webkit-input-placeholder,
+	    .form-default.form-light-default .append-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .clone-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .slider-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .stepper-slick-right::-webkit-input-placeholder,
+        .form-default.form-light-default .captcha-slick-right::-webkit-input-placeholder,
+        .form-default.form-light-default .static-captcha-slick-right::-webkit-input-placeholder,
+        .form-default.form-light-default .dinamic-captcha-slick-right::-webkit-input-placeholder {
+			color:#ccc;	
+		}
+		
+		.form-default.form-light-default .input:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .input-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .color-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .upload-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .drop-upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .append:focus::-webkit-input-placeholder,
+	    .form-default.form-light-default .append-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .stepper:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .clone:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .slider:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .slider-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .select:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .captcha:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .input-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-default.form-light-default .append-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-default.form-light-default .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#aaa;
+		}
+		
+		.form-default.form-light-default .input::-ms-input-placeholder,
+		.form-default.form-light-default .input-right::-ms-input-placeholder,
+		.form-default.form-light-default .color-right::-ms-input-placeholder,
+		.form-default.form-light-default .upload::-ms-input-placeholder,
+		.form-default.form-light-default .upload-right::-ms-input-placeholder,
+		.form-default.form-light-default .drop-upload::-ms-input-placeholder,
+		.form-default.form-light-default .append::-ms-input-placeholder,
+	    .form-default.form-light-default .append-right::-ms-input-placeholder,
+		.form-default.form-light-default .stepper::-ms-input-placeholder,
+		.form-default.form-light-default .clone::-ms-input-placeholder,
+		.form-default.form-light-default .slider::-ms-input-placeholder,
+		.form-default.form-light-default .slider-right::-ms-input-placeholder,
+		.form-default.form-light-default .textarea.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .textarea.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-right.no-resisable::-ms-input-placeholder,
+        .form-default.form-light-default .captcha::-ms-input-placeholder,
+	    .form-default.form-light-default .static-captcha::-ms-input-placeholder,
+		.form-default.form-light-default .dinamic-captcha::-ms-input-placeholder,
+        .form-default.form-light-default .input-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .upload-slick-right::-ms-input-placeholder,
+	    .form-default.form-light-default .append-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .clone-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .slider-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .stepper-slick-right::-ms-input-placeholder,
+        .form-default.form-light-default .captcha-slick-right::-ms-input-placeholder,
+        .form-default.form-light-default .static-captcha-slick-right::-ms-input-placeholder,
+        .form-default.form-light-default .dinamic-captcha-slick-right::-ms-input-placeholder {
+			color:#ccc;	
+		}
+		
+		.form-default.form-light-default .input:focus::-ms-input-placeholder,
+		.form-default.form-light-default .input-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .color-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .upload-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .drop-upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .append:focus::-ms-input-placeholder,
+	    .form-default.form-light-default .append-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .stepper:focus::-ms-input-placeholder,
+		.form-default.form-light-default .clone:focus::-ms-input-placeholder,
+		.form-default.form-light-default .slider:focus::-ms-input-placeholder,
+		.form-default.form-light-default .slider-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .select:focus::-ms-input-placeholder,
+		.form-default.form-light-default .captcha:focus::ms-input-placeholder,
+		.form-default.form-light-default .input-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-default.form-light-default .append-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .clone-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .slider-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .stepper-slick-right:focus::-ms-input-placeholder,
+        .form-default.form-light-default .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#aaa;
+		}
+		
+	/*	--------------------------------------------------
+		:: Disables States
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .input[disabled],
+		.form-default.form-light-default .input-right[disabled],
+		.form-default.form-light-default .color-right[disabled],
+		.form-default.form-light-default .upload[disabled],
+		.form-default.form-light-default .upload-right[disabled],
+		.form-default.form-light-default .drop-upload[disabled],
+		.form-default.form-light-default .append[disabled],
+		.form-default.form-light-default .append-right[disabled],
+		.form-default.form-light-default .stepper[disabled],
+		.form-default.form-light-default .clone[disabled],
+		.form-default.form-light-default .slider[disabled],
+		.form-default.form-light-default .slider-right[disabled],
+		.form-default.form-light-default .textarea[disabled].resisable,
+		.form-default.form-light-default .textarea[disabled].no-resisable,
+		.form-default.form-light-default .textarea-right[disabled].resisable,
+		.form-default.form-light-default .textarea-right[disabled].no-resisable,
+		.form-default.form-light-default .captcha[disabled],
+		.form-default.form-light-default .input-slick-right[disabled],
+		.form-default.form-light-default .upload-slick-right[disabled],
+		.form-default.form-light-default .append-slick-right[disabled],
+		.form-default.form-light-default .clone-slick-right[disabled],
+		.form-default.form-light-default .slider-slick-right[disabled],
+		.form-default.form-light-default .textarea-slick-right[disabled].resisable,
+		.form-default.form-light-default .textarea-slick-right[disabled].no-resisable,
+		.form-default.form-light-default .stepper-slick-right[disabled],
+		.form-default.form-light-default .captcha-slick-right[disabled]{
+			background-color:#fdfdfd;
+			color:#999;
+		}
+		
+		.form-default.form-light-default .select[disabled]{
+			background-color:#fdfdfd;
+			color:#ccc;
+		}
+		
+		.form-default.form-light-default .checkbox[disabled] + .checkboxlabel::before, 
+		.form-default.form-light-default .radio[disabled] + .radiolabel::before{
+			background-color:#fdfdfd;
+			color:#ddd;
+		}
+		
+		.form-default.form-light-default .checkbox-slick[disabled] + .slicklabel::after, 
+		.form-default.form-light-default .radio-slick[disabled] + .slicklabel::after{
+			background-color:#f5f5f5;
+			color:#999;
+		}
+		
+		.form-default.form-light-default .button[disabled] {
+			background-color:#f5f5f5;
+			color:#999;
+		}
+		
+        .form-default.form-light-default .rating .rating-input[disabled]:checked ~ .rating-label,
+		.form-default.form-light-default .rating .rating-input[disabled]:hover ~ .rating-label,
+        .form-default.form-light-default .rating .rating-input[disabled] ~ .rating-label:hover,
+        .form-default.form-light-default .rating .rating-input[disabled] ~ .rating-label:hover ~ .rating-label { 
+			color:#ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Error States
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .error .input,
+		.form-default.form-light-default .error .input-right,
+		.form-default.form-light-default .error .color-right,
+		.form-default.form-light-default .error .upload,
+		.form-default.form-light-default .error .upload-right,
+		.form-default.form-light-default .error .drop-upload,
+		.form-default.form-light-default .error .append,
+		.form-default.form-light-default .error .append-right,
+		.form-default.form-light-default .error .stepper,
+		.form-default.form-light-default .error .clone,
+		.form-default.form-light-default .error .slider,
+		.form-default.form-light-default .error .slider-right,
+		.form-default.form-light-default .error .textarea.resisable,
+		.form-default.form-light-default .error .textarea.no-resisable,
+		.form-default.form-light-default .error .textarea-right.resisable,
+		.form-default.form-light-default .error .textarea-right.no-resisable,
+		.form-default.form-light-default .error .select,
+		.form-default.form-light-default .error .captcha,
+		.form-default.form-light-default .error .input-slick-right,
+		.form-default.form-light-default .error .upload-slick-right,
+		.form-default.form-light-default .error .append-slick-right,
+		.form-default.form-light-default .error .clone-slick-right,
+		.form-default.form-light-default .error .slider-slick-right,
+		.form-default.form-light-default .error .textarea-slick-right.resisable,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable,
+		.form-default.form-light-default .error .stepper-slick-right,
+		.form-default.form-light-default .error .captcha-slick-right{
+			background-color:#fdf9f9;
+			border-color:#f9c5c5;
+			color:#f38a8a; 
+		}
+		
+		.form-default.form-light-default .error .input:focus,
+		.form-default.form-light-default .error .input-right:focus,
+		.form-default.form-light-default .error .color-right:focus,
+		.form-default.form-light-default .error .upload:focus,
+		.form-default.form-light-default .error .upload-right:focus,
+		.form-default.form-light-default .error .drop-upload:focus,
+		.form-default.form-light-default .error .append:focus,
+		.form-default.form-light-default .error .append-right:focus,
+		.form-default.form-light-default .error .stepper:focus,
+		.form-default.form-light-default .error .clone:focus,
+		.form-default.form-light-default .error .slider:focus,
+		.form-default.form-light-default .error .slider-right:focus,
+		.form-default.form-light-default .error .textarea.resisable:focus,
+		.form-default.form-light-default .error .textarea.no-resisable:focus,
+		.form-default.form-light-default .error .textarea-right.resisable:focus,
+		.form-default.form-light-default .error .textarea-right.no-resisable:focus,
+		.form-default.form-light-default .error .select:focus,
+		.form-default.form-light-default .error .captcha:focus,
+		.form-default.form-light-default .error .input-slick-right:focus,
+		.form-default.form-light-default .error .upload-slick-right:focus,
+		.form-default.form-light-default .error .append-slick-right:focus,
+		.form-default.form-light-default .error .clone-slick-right:focus,
+		.form-default.form-light-default .error .slider-slick-right:focus,
+		.form-default.form-light-default .error .textarea-slick-right.resisable:focus,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable:focus,
+		.form-default.form-light-default .error .stepper-slick-right:focus,
+		.form-default.form-light-default .error .captcha-slick-right:focus{
+			background-color:#fdf9f9;
+			border-color:#e9a7a7;
+			color:#d56161; 
+		}
+		
+		.form-default.form-light-default .input-group .error i,
+		.form-default.form-light-default .input-group-right .error i,
+		.form-default.form-light-default .color-group-right .error i,
+		.form-default.form-light-default .clone-group .error i,
+		.form-default.form-light-default .upload-group .error i,
+		.form-default.form-light-default .upload-group-right .error i,
+		.form-default.form-light-default .drop-upload-group .error i,
+		.form-default.form-light-default .textarea-group .error i,
+		.form-default.form-light-default .textarea-group-right .error i,
+		.form-default.form-light-default .slider-group .error i,
+		.form-default.form-light-default .slider-group-right .error i,
+		.form-default.form-light-default .error.custom-select:before,
+		.form-default.form-light-default .error .checkbox + .checkboxlabel::before, 
+		.form-default.form-light-default .error .radio + .radiolabel::before,
+		.form-default.form-light-default .error .checkbox + .checkboxlabel::after, 
+		.form-default.form-light-default .error .radio + .radiolabel::after,
+		.form-default.form-light-default .rating .rating-input ~ .error.rating-label,		
+		.form-default.form-light-default .rating .rating-input:checked ~ .error.rating-label,
+		.form-default.form-light-default .rating .rating-input:hover ~ .error.rating-label,
+        .form-default.form-light-default .rating .rating-input ~ .error.rating-label:hover,
+        .form-default.form-light-default .rating .rating-input ~ .rating-label:hover ~ .error.rating-label,
+		.form-default.form-light-default .input-group-slick-right .error i,
+		.form-default.form-light-default .upload-group-slick-right .error i,
+		.form-default.form-light-default .slider-group-slick-right .error i,
+		.form-default.form-light-default .textarea-group-slick-right .error i,
+		.form-default.form-light-default .stepper-group-slick-right .error i,
+		.form-default.form-light-default .captcha-group-slick-right .error i,
+		.form-default.form-light-default .clone-group-slick-right .error i{
+			color:#e04c69; 
+		}
+		
+		.form-default.form-light-default .error .upload-button,
+		.form-default.form-light-default .append-group .error i,
+		.form-default.form-light-default .append-group-right .error i,
+		.form-default.form-light-default .error .checkbox-slick + .slicklabel::after, 
+		.form-default.form-light-default .error .radio-slick + .slicklabel::after,
+		.form-default.form-light-default .error .upload-button-slick,
+		.form-default.form-light-default .append-group-slick-right .error i{
+			background-color:#e04c69;
+			color:#fff; 
+		}
+		
+		.form-default.form-light-default .error .drop-upload-button{
+			color:#e04c69; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Error States Messages
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .error {
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .stepper-group .error .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group .error .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-increase{
+			background-color:#e04c69;
+		}
+		
+		.form-default.form-light-default .stepper-group .error .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-decrease{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-right:1px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .stepper-group .error .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-increase{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-left:1px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .stepper-group .error .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group .error .stepper-button-increase i,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group-slick-right .error .stepper-button-increase i{
+			color:#fff; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .clone-wrapper .error ~ .open-button,
+		.form-default.form-light-default .clone-wrapper .error ~ .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .close-button{
+			background-color:#e04c69;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .error ~ .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .open-button{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-right:1px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .error ~ .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .close-button{
+			border-top:1px solid #e04c69;
+			border-bottom:1px solid #e04c69;
+			border-left:1px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .error ~ .open-button i,
+		.form-default.form-light-default .clone-wrapper .error ~ .close-button i,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .open-button i,
+		.form-default.form-light-default .clone-wrapper-slick .error ~ .close-button i{
+			color:#fff; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .input-group-slick-right .error .label,
+		.form-default.form-light-default .upload-group-slick-right .error .label,
+		.form-default.form-light-default .slider-group-slick-right .error .label,
+		.form-default.form-light-default .textarea-group-slick-right .error .label,
+		.form-default.form-light-default .captcha-group-slick-right .error .label,
+		.form-default.form-light-default .clone-group-slick-right .error .label,
+		.form-default.form-light-default .stepper-group-slick-right .error .label,
+		.form-default.form-light-default .append-group-slick-right .error .label{
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Error Placeholder
+		-------------------------------------------------- */
+	
+		.form-default.form-light-default .error .input::-webkit-input-placeholder,
+		.form-default.form-light-default .error .input-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .color-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .drop-upload::-webkit-input-placeholder,
+		.form-default.form-light-default .error .append::-webkit-input-placeholder,
+		.form-default.form-light-default .error .append-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .stepper::-webkit-input-placeholder,
+		.form-default.form-light-default .error .clone::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .error .captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .error .static-captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .error .dinamic-captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .error .input-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload-slick-right::-webkit-input-placeholder,
+	    .form-default.form-light-default .error .append-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .clone-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+        .form-default.form-light-default .error .captcha-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .stepper-slick-right::-webkit-input-placeholder,
+        .form-default.form-light-default .error .static-captcha-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .error .dinamic-captcha-slick-right::-webkit-input-placeholder{
+			color:#f38a8a;
+		}
+		
+		.form-default.form-light-default .error .input:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .input-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .color-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .drop-upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .append:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .append-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .stepper:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .clone:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .select:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .captcha:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .input-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-default.form-light-default .error .append-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .error .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-default.form-light-default .error .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#d56161;
+		}
+		
+		.form-default.form-light-default .error .input::-ms-input-placeholder,
+		.form-default.form-light-default .error .input-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .color-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .drop-upload::-ms-input-placeholder,
+		.form-default.form-light-default .error .append::-ms-input-placeholder,
+		.form-default.form-light-default .error .append-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .stepper::-ms-input-placeholder,
+		.form-default.form-light-default .error .clone::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .error .captcha::-ms-input-placeholder,
+		.form-default.form-light-default .error .static-captcha::-ms-input-placeholder,
+		.form-default.form-light-default .error .dinamic-captcha::-ms-input-placeholder,
+		.form-default.form-light-default .error .input-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload-slick-right::-ms-input-placeholder,
+	    .form-default.form-light-default .error .append-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .clone-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable::-ms-input-placeholder,
+        .form-default.form-light-default .error .stepper-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .captcha-slick-right::-ms-input-placeholder,
+        .form-default.form-light-default .error .static-captcha-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .error .dinamic-captcha-slick-right::-ms-input-placeholder{
+			color:#f38a8a;
+		}
+		
+		.form-default.form-light-default .error .input:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .input-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .color-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .drop-upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .append:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .append-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .stepper:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .clone:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .select:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .captcha:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .input-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-default.form-light-default .error .append-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .clone-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .slider-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .error .stepper-slick-right:focus::-ms-input-placeholder,
+        .form-default.form-light-default .error .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#d56161;
+		}
+		
+	/*	--------------------------------------------------
+		:: Success States
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .success .input,
+		.form-default.form-light-default .success .input-right,
+		.form-default.form-light-default .success .color-right,
+		.form-default.form-light-default .success .upload,
+		.form-default.form-light-default .success .upload-right,
+		.form-default.form-light-default .success .drop-upload,
+		.form-default.form-light-default .success .append,
+		.form-default.form-light-default .success .append-right,
+		.form-default.form-light-default .success .stepper,
+		.form-default.form-light-default .success .clone,
+		.form-default.form-light-default .success .slider,
+	    .form-default.form-light-default .success .slider-right,
+		.form-default.form-light-default .success .textarea.resisable,
+		.form-default.form-light-default .success .textarea.no-resisable,
+		.form-default.form-light-default .success .textarea-right.resisable,
+		.form-default.form-light-default .success .textarea-right.no-resisable,
+		.form-default.form-light-default .success .select,
+		.form-default.form-light-default .success .captcha,
+        .form-default.form-light-default .success .input-slick-right,
+		.form-default.form-light-default .success .upload-slick-right,
+		.form-default.form-light-default .success .append-slick-right,
+		.form-default.form-light-default .success .clone-slick-right,
+		.form-default.form-light-default .success .slider-slick-right,
+		.form-default.form-light-default .success .textarea-slick-right.resisable,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable,
+		.form-default.form-light-default .success .stepper-slick-right,
+		.form-default.form-light-default .success .captcha-slick-right {
+			border-color:#eee;
+			color:#bbb; 
+		}
+		
+		.form-default.form-light-default .success .input:focus,
+		.form-default.form-light-default .success .input-right:focus,
+		.form-default.form-light-default .success .color-right:focus,
+		.form-default.form-light-default .success .upload:focus,
+		.form-default.form-light-default .success .upload-right:focus,
+		.form-default.form-light-default .success .drop-upload:focus,
+		.form-default.form-light-default .success .append:focus,
+		.form-default.form-light-default .success .append-right:focus,
+		.form-default.form-light-default .success .stepper:focus,
+		.form-default.form-light-default .success .clone:focus,
+		.form-default.form-light-default .success .slider:focus,
+	    .form-default.form-light-default .success .slider-right:focus,
+		.form-default.form-light-default .success .textarea.resisable:focus,
+		.form-default.form-light-default .success .textarea.no-resisable:focus,
+		.form-default.form-light-default .success .textarea-right.resisable:focus,
+		.form-default.form-light-default .success .textarea-right.no-resisable:focus,
+		.form-default.form-light-default .success .select:focus,
+		.form-default.form-light-default .success .captcha:focus,
+		.form-default.form-light-default .success .input-slick-right:focus,
+		.form-default.form-light-default .success .upload-slick-right:focus,
+		.form-default.form-light-default .success .append-slick-right:focus,
+		.form-default.form-light-default .success .clone-slick-right:focus,
+		.form-default.form-light-default .success .slider-slick-right:focus,
+		.form-default.form-light-default .success .textarea-slick-right.resisable:focus,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable:focus,
+		.form-default.form-light-default .success .stepper-slick-right:focus,
+		.form-default.form-light-default .success .captcha-slick-right:focus{
+			background-color:#fdfdfd;
+			border-color:#ddd;
+			color:#777;
+		}
+		
+		.form-default.form-light-default .input-group .success i,
+		.form-default.form-light-default .input-group-right .success i,
+		.form-default.form-light-default .color-group-right .success i,
+		.form-default.form-light-default .clone-group .success i,
+		.form-default.form-light-default .upload-group .success i,
+		.form-default.form-light-default .upload-group-right .success i,
+		.form-default.form-light-default .drop-upload-group .success i,
+		.form-default.form-light-default .textarea-group .success i,
+		.form-default.form-light-default .textarea-group-right .success i,
+		.form-default.form-light-default .slider-group .success i,
+	    .form-default.form-light-default .slider-group-right .success i,
+		.form-default.form-light-default .success.custom-select:before,
+		.form-default.form-light-default .input-group-slick-right .success i,
+		.form-default.form-light-default .upload-group-slick-right .success i,
+		.form-default.form-light-default .slider-group-slick-right .success i,
+		.form-default.form-light-default .textarea-group-slick-right .success i,
+		.form-default.form-light-default .captcha-group-slick-right .success i,
+		.form-default.form-light-default .stepper-group-slick-right .success i,
+		.form-default.form-light-default .clone-group-slick-right .success i{
+			color:#999; 
+		}
+		
+		.form-default.form-light-default .success .checkbox + .checkboxlabel::before, 
+		.form-default.form-light-default .success .radio + .radiolabel::before{
+			color:#ddd; 
+		}
+		
+		.form-default.form-light-default .success .checkbox + .checkboxlabel::after, 
+		.form-default.form-light-default .success .radio + .radiolabel::after{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Stepper Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .stepper-group .success .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group .success .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-increase{
+			background-color:#fdfdfd;
+		}
+		
+		.form-default.form-light-default .stepper-group .success .stepper-button-decrease,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-decrease{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .stepper-group .success .stepper-button-increase,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-increase{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .stepper-group .success .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group .success .stepper-button-increase i,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-decrease i,
+		.form-default.form-light-default .stepper-group-slick-right .success .stepper-button-increase i{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Clone Element
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .clone-wrapper .success ~ .open-button,
+		.form-default.form-light-default .clone-wrapper .success ~ .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .close-button{
+			background-color:#fdfdfd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .success ~ .open-button,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .open-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-right:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .success ~ .close-button,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .close-button{
+			border-top:1px solid #ddd;
+			border-bottom:1px solid #ddd;
+			border-left:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .clone-wrapper .success ~ .open-button i,
+		.form-default.form-light-default .clone-wrapper .success ~ .close-button i,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .open-button i,
+		.form-default.form-light-default .clone-wrapper-slick .success ~ .close-button i{
+			color:#999; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Label
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .input-group-slick-right .success .label,
+		.form-default.form-light-default .upload-group-slick-right .success .label,
+		.form-default.form-light-default .slider-group-slick-right .success .label,
+		.form-default.form-light-default .textarea-group-slick-right .success .label,
+		.form-default.form-light-default .captcha-group-slick-right .success .label,
+		.form-default.form-light-default .stepper-group-slick-right .success .label,
+		.form-default.form-light-default .clone-group-slick-right .success .label,
+		.form-default.form-light-default .append-group-slick-right .success .label{
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Success Placeholder
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .success .input::-webkit-input-placeholder,
+		.form-default.form-light-default .success .input-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .color-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .drop-upload::-webkit-input-placeholder,
+		.form-default.form-light-default .success .append::-webkit-input-placeholder,
+		.form-default.form-light-default .success .append-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .stepper::-webkit-input-placeholder,
+		.form-default.form-light-default .success .clone::-webkit-input-placeholder,
+		.form-default.form-light-default .success .slider::-webkit-input-placeholder,
+		.form-default.form-light-default .success .slider-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.no-resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .success .captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .success .static-captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .success .dinamic-captcha::-webkit-input-placeholder,
+		.form-default.form-light-default .success .input-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload-slick-right::-webkit-input-placeholder,
+	    .form-default.form-light-default .success .append-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .clone-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .slider-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.resisable::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable::-webkit-input-placeholder,
+        .form-default.form-light-default .success .stepper-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .captcha-slick-right::-webkit-input-placeholder,
+        .form-default.form-light-default .success .static-captcha-slick-right::-webkit-input-placeholder,
+		.form-default.form-light-default .success .dinamic-captcha-slick-right::-webkit-input-placeholder{
+			color:#bbb;
+		}
+		
+		.form-default.form-light-default .success .input:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .input-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .color-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .drop-upload:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .append:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .append-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .stepper:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .clone:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .slider:focus::-webkit-input-placeholder,
+	    .form-default.form-light-default .success .slider-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .select:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .captcha:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .input-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .upload-slick-right:focus::-webkit-input-placeholder,
+	    .form-default.form-light-default .success .append-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .clone-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .slider-slick-right:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable:focus::-webkit-input-placeholder,
+		.form-default.form-light-default .success .stepper-slick-right:focus::-webkit-input-placeholder,
+        .form-default.form-light-default .success .captcha-slick-right:focus::-webkit-input-placeholder{
+			color:#777;
+		}
+		
+		.form-default.form-light-default .success .input::-ms-input-placeholder,
+		.form-default.form-light-default .success .input-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .color-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .drop-upload::-ms-input-placeholder,
+		.form-default.form-light-default .success .append::-ms-input-placeholder,
+		.form-default.form-light-default .success .append-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .stepper::-ms-input-placeholder,
+		.form-default.form-light-default .success .clone::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.no-resisable::-ms-input-placeholder,
+		.form-default.form-light-default .success .captcha::-ms-input-placeholder,
+		.form-default.form-light-default .success .static-captcha::-ms-input-placeholder,
+		.form-default.form-light-default .success .dinamic-captcha::-ms-input-placeholder,
+		.form-default.form-light-default .success .input-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload-slick-right::-ms-input-placeholder,
+	    .form-default.form-light-default .success .append-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .clone-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.resisable::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable::-ms-input-placeholder,
+        .form-default.form-light-default .success .captcha-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .stepper-slick-right::-ms-input-placeholder,
+        .form-default.form-light-default .success .static-captcha-slick-right::-ms-input-placeholder,
+		.form-default.form-light-default .success .dinamic-captcha-slick-right::-ms-input-placeholder{
+			color:#bbb;
+		}
+		
+		.form-default.form-light-default .success .input:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .input-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .color-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .drop-upload:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .append:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .append-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .stepper:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .clone:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .select:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .captcha:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .input-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .upload-slick-right:focus::-ms-input-placeholder,
+	    .form-default.form-light-default .success .append-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .clone-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .slider-slick-right:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .textarea-slick-right.no-resisable:focus::-ms-input-placeholder,
+		.form-default.form-light-default .success .stepper-slick-right:focus::-ms-input-placeholder
+        .form-default.form-light-default .success .captcha-slick-right:focus::-ms-input-placeholder{
+			color:#777;
+		}
+
+	/*	--------------------------------------------------
+		:: Checkbox
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .checkbox + .checkboxlabel::before{
+			color:#ddd;
+			background-color:#fff;
+		}
+		
+		.form-default.form-light-default .checkbox:checked + .checkboxlabel::before{
+			background-color:#fff;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+		.form-default.form-light-default .checkbox + .checkboxlabel::after{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .checkbox:checked, .checkbox:focus,
+		.form-default.form-light-default .checkbox:checked + .checkboxlabel, .checkbox:focus + .checkboxlabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .radio + .radiolabel::before{
+			color:#ddd;
+			background-color:#fff;
+		}
+		
+		.form-default.form-light-default .radio:checked + .radiolabel::before{
+			background-color:#fff;
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+		.form-default.form-light-default .radio + .radiolabel::after{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .radio:checked, .radio:focus,
+		.form-default.form-light-default .radio:checked + .radiolabel, .radio:focus + .radiolabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+	
+	/*	--------------------------------------------------
+		:: Checkbox Slick
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .checkbox-slick + .slicklabel::after{
+			color:#999;		
+			background-color:#eee;
+		}
+		
+		.form-default.form-light-default .checkbox-slick:checked, .checkbox-slick:focus,
+		.form-default.form-light-default .checkbox-slick:checked + .slicklabel, .checkbox-slick:focus + .slicklabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Radio Slick
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .radio-slick + .slicklabel::after{
+			color:#999;		
+			background-color:#eee;
+		}
+		
+		.form-default.form-light-default .radio-slick:checked, .radio-slick:focus,
+		.form-default.form-light-default .radio-slick:checked + .slicklabel, .radio-slick:focus + .slicklabel{
+			-webkit-tap-highlight-color:rgba(0,0,0,0);
+		}
+		
+	/*	--------------------------------------------------
+		:: Ratings
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .rating-group h4{
+			color:#777;
+		}
+		
+		.form-default.form-light-default .rating .rating-label {
+			color:#ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Design
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .box{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .box .box-header{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-default.form-light-default .box .box-header h4{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .box .box-header i{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Services Design
+		-------------------------------------------------- */
+
+		.form-default.form-light-default .box-services{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .box-services .box-header-services{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;
+		}
+		
+		.form-default.form-light-default .box-services .box-header-services h4{
+			color:#999;
+		}	
+		
+		.form-default.form-light-default .box-services .box-section-services{
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .box-services .box-section-services h4{
+			color:#777;
+		}
+		
+		.form-default.form-light-default .box-services .box-section-services i{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .box-services .box-section-services p,
+		.form-default.form-light-default .box-services .box-section-services .totalservices{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .box-services .box-sub-footer-services{
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .box-services .box-sub-footer-services p{
+			color:#999;
+		}
+		
+		.form-default.form-light-default .box-services .box-footer-services #carousel .service-item .overlay {
+			background-color:rgba(0,0,0,0.6);
+		}
+		
+		.form-default.form-light-default .box-services .box-footer-services #carousel .service-item .overlay .description p {
+			color:#fff;
+		}
+		
+		.form-default.form-light-default .box-services .box-footer-services #carousel .service-item .overlay .description i {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Box Payment Design
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .box-payment{
+			border-top:1px solid #eee;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .box-payment .box-header-payment{
+			border-bottom:1px solid #eee;
+			background-color:#fdfdfd;
+			border-left:0;
+			border-right:0;
+			color:#999;	
+		}
+		
+		.form-default.form-light-default .box-payment .box-header-payment .card-visa,
+		.form-default.form-light-default .box-payment .box-header-payment .card-electron,
+		.form-default.form-light-default .box-payment .box-header-payment .card-mastercard,
+		.form-default.form-light-default .box-payment .box-header-payment .card-maestro,
+		.form-default.form-light-default .box-payment .box-header-payment .card-amex,
+		.form-default.form-light-default .box-payment .box-header-payment .card-paypal,
+		.form-default.form-light-default .box-payment .box-header-payment .card-stripe,
+		.form-default.form-light-default .box-payment .box-header-payment .card-braintree{
+			background-color:#fff;
+			border:1px solid #ddd;
+		}
+		
+		.form-default.form-light-default .box-payment .box-header-payment h4,
+		.form-default.form-light-default .box-payment .box-header-payment i{
+			color:#999;
+		}
+	
+	/*	--------------------------------------------------
+		:: Box Payment Method
+		-------------------------------------------------- */	
+	
+		.form-default.form-light-default .box-payment .box-section-payment{
+			background-color:#fdfdfd;
+		}
+
+		.form-default.form-light-default .box-payment .box-section-payment .tabslabel h4{
+			background-color:#eee;
+			color:#999;		
+		}
+
+		.form-default.form-light-default .box-payment .box-section-payment ul li{
+			background-color:#fff;	
+			border-top:1px solid #eee;
+		}
+	
+	/*	--------------------------------------------------
+		:: Tooltips
+		-------------------------------------------------- */	
+	
+		.form-default.form-light-default .tooltip,
+		.form-default.form-light-default .tooltip:before {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-info {
+			background-color:#3c9ad0;
+		    border:1px solid #1f77aa;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Top
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-info.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #3c9ad0;
+		}
+		
+		.form-default.form-light-default .tooltip-info.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+		
+		.form-default.form-light-default .tooltip-info.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Bottom
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-info.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+		.form-default.form-light-default .tooltip-info.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+		.form-default.form-light-default .tooltip-info.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Left
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-info.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Info Right
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-info.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-warning {
+			background-color:#ed7550;
+		    border:1px solid #c95b3a;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Top
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-warning.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #ed7550;
+		}
+		
+		.form-default.form-light-default .tooltip-warning.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #ed7550;
+		}
+		
+		.form-default.form-light-default .tooltip-warning.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Bottom
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-warning.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+		.form-default.form-light-default .tooltip-warning.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+		.form-default.form-light-default .tooltip-warning.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Left
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-warning.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Warning Right
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-warning.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-error {
+			background-color:#e04c69;
+		    border:1px solid #be3953; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Top
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-error.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .tooltip-error.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .tooltip-error.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Bottom
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-error.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .tooltip-error.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+		.form-default.form-light-default .tooltip-error.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Left
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-error.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Error Right
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-error.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-success {
+			background-color:#39c176;
+		    border:1px solid #27995a;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Top
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-success.top-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #39c176;
+		}
+		
+		.form-default.form-light-default .tooltip-success.top-center:after { 
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #39c176;
+		}
+		
+		.form-default.form-light-default .tooltip-success.top-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-top:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Bottom
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-success.bottom-left:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+		.form-default.form-light-default .tooltip-success.bottom-center:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+		.form-default.form-light-default .tooltip-success.bottom-right:after { 
+			border-left:10px solid transparent;
+		    border-right:10px solid transparent;
+		    border-bottom:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Left
+		-------------------------------------------------- */	
+		
+		.form-default.form-light-default .tooltip-success.left:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-left:10px solid #39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Tooltips Success Right
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .tooltip-success.right:after { 
+			border-top:10px solid transparent;
+		    border-bottom:10px solid transparent;
+		    border-right:10px solid #39c176;
+		}
+	
+	/*	--------------------------------------------------
+		:: Normal & Striped Progress Bars Configurations 
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .progress-bar {  
+			background-color:#f5f5f5;	
+		}
+		
+		.form-default.form-light-default .progress-bar .percent {
+			color:#fff;   		
+		}
+
+	/*	--------------------------------------------------
+		:: Striped Progress Bars 
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .progress-bar.striped .bar {
+			background-image:linear-gradient(135deg, rgba(255,255,255,.15) 25%, transparent 25%,transparent 50%, rgba(255,255,255,.15) 50%, rgba(255,255,255,.15) 75%,transparent 75%, transparent);            
+			-webkit-animation:animate 3s linear infinite;
+			   -moz-animation:animate 3s linear infinite;
+				 -o-animation:animate 3s linear infinite;
+					animation:animate 3s linear infinite;   
+		}
+		
+	/*	--------------------------------------------------
+		::  Dividers
+		-------------------------------------------------- */
+	
+		.form-default.form-light-default .dividers .divider {
+            color:#777;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider One
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-one {
+			border-top:1px solid #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Two
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-two {
+			border-top:1px dashed #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Three
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-three {
+			border-top:1px dotted #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Four
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-four {
+			border-top:2px solid #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Five
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-five {
+			border-top:2px dashed #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Six
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-six {
+			border-top:2px dotted #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Seven
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-seven {
+			border-top:3px double #ddd;
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Eight
+		-------------------------------------------------- */
+	
+	    .form-default.form-light-default .divider-eight {
+			background-color:#ddd;
+			background-image:-webkit-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-moz-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-ms-linear-gradient(left, #ddd, #999, #ddd);
+			background-image:-o-linear-gradient(left, #ddd, #999, #ddd);
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Nine
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-nine::after { 
+			border-top:1px dashed #ddd; 
+		} 
+		
+		.form-default.form-light-default .divider-nine p {
+            color:#999;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Ten
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-ten::after { 
+			border-top:1px solid #ddd; 
+		} 
+		
+		.form-default.form-light-default .divider-ten h4 {
+            color:#fff;			
+		}
+		
+		.form-default.form-light-default .divider-ten i { 
+            color:#fff;			
+		}
+		
+	/*	--------------------------------------------------
+		:: Divider Ten Colors
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .divider-info h4 {
+			background-color:#86b5ea;
+		}
+		
+		.form-default.form-light-default .divider-warning h4 {
+			background-color:#f69368;
+		}
+		
+		.form-default.form-light-default .divider-error h4 {
+			background-color:#f38a8a;
+		}
+		
+		.form-default.form-light-default .divider-success h4 {
+			background-color:#5ad98e;
+		}
+		
+	/*	--------------------------------------------------
+		:: Messages
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .info-message { 
+			background-color:#86b5ea;
+			border:1px solid #73a4da; 
+		}
+		
+		.form-default.form-light-default .warning-message {  
+			background-color:#f69368;
+			border:1px solid #d77449;
+		}
+		
+		.form-default.form-light-default .error-message { 
+			background-color:#f38a8a;
+			border:1px solid #e27373; 
+		}
+		
+		.form-default.form-light-default .success-message {  
+			background-color:#5ad98e;
+			border:1px solid #46c47a;
+		}
+		
+		.form-default.form-light-default .info-message i,
+		.form-default.form-light-default .warning-message i,
+		.form-default.form-light-default .error-message i,
+		.form-default.form-light-default .success-message i{
+			color:#fff;
+		}
+		
+		.form-default.form-light-default .info-message p,
+		.form-default.form-light-default .warning-message p,
+		.form-default.form-light-default .error-message p,
+		.form-default.form-light-default .success-message p{
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slick Messages
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .slick-info-message { 
+			background-color:#86b5ea;
+			border:1px solid #73a4da; 
+		}
+		
+		.form-default.form-light-default .slick-warning-message {  
+			background-color:#f69368;
+			border:1px solid #d77449;
+		}
+
+		.form-default.form-light-default .slick-error-message { 
+			background-color:#f38a8a;
+			border:1px solid #e27373; 
+		}
+		
+		.form-default.form-light-default .slick-success-message {  
+			background-color:#5ad98e;
+			border:1px solid #46c47a;
+		}
+		
+		.form-default.form-light-default .slick-info-message i,
+		.form-default.form-light-default .slick-warning-message i,
+		.form-default.form-light-default .slick-error-message i,
+		.form-default.form-light-default .slick-success-message i{
+			color:#fff;
+		}
+		
+		.form-default.form-light-default .slick-info-message p,
+		.form-default.form-light-default .slick-warning-message p,
+		.form-default.form-light-default .slick-error-message p,
+		.form-default.form-light-default .slick-success-message p{
+			color:#fff;
+		}
+		
+		.form-default.form-light-default .slick-divider { 
+			border-bottom:1px solid #fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Redirect Messages
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .section-message { 
+			background-color:#fff;
+		}
+		
+		.form-default.form-light-default .success-redirect i{
+			color:#39c176;
+		}
+		
+		.form-default.form-light-default .error-redirect i{
+			color:#e04c69;
+		}
+		
+		.form-default.form-light-default .error-redirect p,
+		.form-default.form-light-default .success-redirect p,
+		.form-default.form-light-default .error-redirect a,
+		.form-default.form-light-default .success-redirect a{
+			color:#999;
+		}
+		
+	/*	--------------------------------------------------
+		:: NOSCRIPT Message
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .section-noscript-message{ 
+			background-color:#fff;
+		}
+		
+		.form-default.form-light-default .error-noscript { 
+			color:#999;
+		}
+		
+		.form-default.form-light-default .error-noscript i{
+			color:#e04c69;
+		}
+		
+	/*	--------------------------------------------------
+		:: Direct Access Messages
+		-------------------------------------------------- */
+		
+		.error-access-message { 
+			background-color:#fff;
+			border:1px solid #ddd; 
+		}
+		
+		.error-access-message p,
+		.error-access-message i { 
+			color:#777; 
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Design
+		-------------------------------------------------- */
+		
+		.loader{
+			border-left:5px solid #fff;
+			border-right:5px solid #fff;
+			border-top:5px solid transparent;
+			border-bottom:5px solid transparent;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Info
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-info{
+			background-color:#3c9ad0;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Warning
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-warning{
+			background-color:#ed7550;
+		}
+		
+	/*	--------------------------------------------------
+		:: Loader Container Error
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-error{
+			background-color:#e04c69;
+		}
+			
+	/*	--------------------------------------------------
+		:: Loader Container Success
+		-------------------------------------------------- */
+			
+		.loader-container.loader-container-success{
+			background-color:#39c176;
+		}
+		
+	/*	--------------------------------------------------
+		:: Google Map
+		-------------------------------------------------- */
+		
+		.form-default.form-light-default .map-group { 
+			border-top:1px solid #eee;	
+			border-bottom:1px solid #eee;		
+		}
+
+		.form-default.form-light-default .info-content h4{
+			color:#999;
+			border-bottom:1px solid #eee;
+		}
+		
+		.form-default.form-light-default .info-content p{
+			color:#999;
+		}
+	
+	/*	--------------------------------------------------
+		:: Emotions Autocomplete
+		-------------------------------------------------- */
+		
+		.dropdown-menu {
+			border:1px solid #eee;
+			background-color:#fff;
+		}
+
+		.dropdown-menu li {
+			border-bottom:1px solid #eee;
+		}
+
+		.dropdown-menu li a {
+			color:#777;
+		}
+
+		.dropdown-menu .active,
+		.dropdown-menu li:hover {
+			background:#fdfdfd;
+			color:#777;
+		}
+
+		.dropdown-menu .active a,
+		.dropdown-menu li:hover a {
+			color:#777;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Autocomplete
+		-------------------------------------------------- */
+		
+		.completer-container {
+			background-color:#fff;
+			color:#777;	
+		}
+		
+		.completer-container li {
+			background-color:#fff;
+			border:1px solid #ddd;
+		}
+		
+		.completer-container .completer-selected,
+		.completer-container li:hover {
+			background-color:#f9f9f9;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Social Buttons
+		-------------------------------------------------- */
+		
+		.rrssb-buttons li a {
+			color:#fff;
+		}
+		
+		.rrssb-buttons li a i {
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Form Social Buttons Colors
+		-------------------------------------------------- */
+		
+		.rrssb-buttons li.rrssb-email a {
+			background-color:#0a88ff;
+		}
+
+		.rrssb-buttons li.rrssb-email a:hover {
+			background-color:#006ed6;
+		}
+
+		.rrssb-buttons li.rrssb-facebook a {
+			background-color:#306199;
+		}
+
+		.rrssb-buttons li.rrssb-facebook a:hover {
+			background-color:#244872;
+		}
+
+		.rrssb-buttons li.rrssb-tumblr a {
+			background-color:#32506d;
+		}
+
+		.rrssb-buttons li.rrssb-tumblr a:hover {
+			background-color:#22364a;
+		}
+
+		.rrssb-buttons li.rrssb-linkedin a {
+			background-color:#007bb6;
+		}
+
+		.rrssb-buttons li.rrssb-linkedin a:hover {
+			background-color:#005983;
+		}
+
+		.rrssb-buttons li.rrssb-twitter a {
+			background-color:#26c4f1;
+		}
+
+		.rrssb-buttons li.rrssb-twitter a:hover {
+			background-color:#0eaad6;
+		}
+
+		.rrssb-buttons li.rrssb-googleplus a {
+			background-color:#e93f2e;
+		}
+
+		.rrssb-buttons li.rrssb-googleplus a:hover {
+			background-color:#ce2616;
+		}
+
+		.rrssb-buttons li.rrssb-youtube a {
+			background-color:#df1c31;
+		}
+
+		.rrssb-buttons li.rrssb-youtube a:hover {
+			background-color:#b21627;
+		}
+
+		.rrssb-buttons li.rrssb-reddit a {
+			background-color:#8bbbe3;
+		}
+
+		.rrssb-buttons li.rrssb-reddit a:hover {
+			background-color:#62a3d9;
+		}
+
+		.rrssb-buttons li.rrssb-pinterest a {
+			background-color:#b81621;
+		}
+
+		.rrssb-buttons li.rrssb-pinterest a:hover {
+			background-color:#8a1119;
+		}
+
+		.rrssb-buttons li.rrssb-github a {
+			background-color:#444;
+		}
+
+		.rrssb-buttons li.rrssb-github a:hover {
+			background-color:#2b2b2b;
+		}
+
+		.rrssb-buttons li.rrssb-instagram a {
+			background-color:#125688;
+		}
+
+		.rrssb-buttons li.rrssb-instagram a:hover {
+			background-color:#0c3a5b;
+		}
+
+		.rrssb-buttons li.rrssb-print a {
+			background-color:#8d98a2;
+		}
+
+		.rrssb-buttons li.rrssb-print a:hover {
+			background-color:#717f8b;
+		}
+		
+	/*	--------------------------------------------------
+		:: Services Carousel
+		-------------------------------------------------- */
+		
+		.owl-carousel {
+			-webkit-tap-highlight-color:transparent;
+		}
+		
+		.owl-carousel .owl-video-wrapper {
+			background-color:#000; 
+		}
+		
+		.owl-theme .owl-controls {
+			-webkit-tap-highlight-color:transparent;
+		}
+
+		.owl-theme .owl-controls .owl-nav [class*=owl-] {
+			color:#fff;
+			background-color:#d6d6d6;
+		}
+
+		.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+			background-color:#869791;
+			color:#fff;
+		}
+
+		.owl-theme .owl-dots .owl-dot span {
+			background-color:#d6d6d6;
+		}
+
+		.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span {
+			background-color:#869791;
+		}
+		
+	/*	--------------------------------------------------
+		:: Color Picker Theme
+		-------------------------------------------------- */	
+
+		.sp-container {
+			background-color:#fdfdfd;
+			border:1px solid #ddd;
+		}
+		
+		.sp-color, .sp-hue {
+			border:none;
+		}
+		
+		.sp-alpha-handle {
+			border:1px solid #fff;
+			background-color:#fff;
+		}
+		
+		.sp-input {	
+			border:1px solid #ddd;
+			color:#777;
+		}
+		
+		.sp-input:focus  {
+			border:1px solid #bbb;
+		}
+		
+		.sp-input.sp-validation-error {
+			background-color:#fdf9f9;
+			border:1px solid #f9c5c5;
+		}
+		
+		.sp-picker-container , .sp-palette-container {
+			border-left:1px solid #ddd;
+		}
+		
+		.sp-dragger,
+		.sp-slider {
+			background-color:#fff;
+		}
+
+		.sp-replacer:hover, .sp-replacer.sp-active {
+			color:#fff;
+		}
+
+		.sp-container button {
+			background-color:#3c9ad0;
+			color:#fff;
+		}
+		
+		.sp-container button:hover {
+			background-color:#3c9ad0;
+		}
+		
+		.sp-container button:active {
+			background-color:#3c9ad0;
+		}
+		
+		.sp-cancel {
+			background-color:#e04c69;
+			color:#fff;
+		}
+		
+		.sp-cancel:hover {
+			background-color:#e04c69;
+		}
+		
+		.sp-palette-container {
+			border:none;
+		}
+
+		.sp-palette-only .sp-palette-container {
+			border:none;
+		}
+
+		.sp-palette span:hover, .sp-palette span.sp-thumb-active {
+			color:#fff;
+		}
+
+		.sp-palette .sp-thumb-inner {
+			background-position:50% 50%;
+			background-repeat:no-repeat;
+		}
+
+		.sp-palette .sp-thumb-light.sp-thumb-active .sp-thumb-inner:before {
+			color:#fff;
+		}
+
+		.sp-palette .sp-thumb-dark.sp-thumb-active .sp-thumb-inner:before {
+			color:#fff;
+		}
+		
+		.sp-clear-display:before {
+			color:#fff;
+		}
+		
+		.sp-clear.sp-clear-display {
+			background-color:#e04c69;
+		}
+		
+		.sp-sat {
+			background-image:-webkit-gradient(linear,  0 0, 100% 0, from(#FFF), to(rgba(204, 154, 129, 0)));
+			background-image:-webkit-linear-gradient(left, #FFF, rgba(204, 154, 129, 0));
+			background-image:-moz-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:-o-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:-ms-linear-gradient(left, #fff, rgba(204, 154, 129, 0));
+			background-image:linear-gradient(to right, #fff, rgba(204, 154, 129, 0));
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr=#FFFFFFFF, endColorstr=#00CC9A81)";
+			filter :progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr='#FFFFFFFF', endColorstr='#00CC9A81');
+		}
+		
+		.sp-val {
+			background-image:-webkit-gradient(linear, 0 100%, 0 0, from(#000000), to(rgba(204, 154, 129, 0)));
+			background-image:-webkit-linear-gradient(bottom, #000000, rgba(204, 154, 129, 0));
+			background-image:-moz-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:-o-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:-ms-linear-gradient(bottom, #000, rgba(204, 154, 129, 0));
+			background-image:linear-gradient(to top, #000, rgba(204, 154, 129, 0));
+			-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00CC9A81, endColorstr=#FF000000)";
+			filter :progid:DXImageTransform.Microsoft.gradient(startColorstr='#00CC9A81', endColorstr='#FF000000');
+		}
+
+		.sp-hue {
+			background:-moz-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-ms-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-o-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:-webkit-gradient(linear, left top, left bottom, from(#ff0000), color-stop(0.17, #ffff00), color-stop(0.33, #00ff00), color-stop(0.5, #00ffff), color-stop(0.67, #0000ff), color-stop(0.83, #ff00ff), to(#ff0000));
+			background:-webkit-linear-gradient(top, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+			background:linear-gradient(to bottom, #ff0000 0%, #ffff00 17%, #00ff00 33%, #00ffff 50%, #0000ff 67%, #ff00ff 83%, #ff0000 100%);
+		}
+		
+	/*	--------------------------------------------------
+		:: Datepicker
+		-------------------------------------------------- */
+		
+		.ui-datepicker .ui-datepicker-header { 
+			background-color:#fff;
+			border-left:1px solid #eee; 
+			border-right:1px solid #eee; 
+			border-bottom:1px solid #eee; 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-prev:before { 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-next:before { 
+			color:#999;
+		}
+		
+		.ui-datepicker .ui-datepicker-calendar {
+			background-color:#fff;
+			border-left:1px solid #eee; 
+			border-right:1px solid #eee; 
+			border-bottom:1px solid #eee; 
+			color:#999;
+		}
+		
+		.ui-datepicker-calendar .ui-state-default{
+			color:#999;
+			border:1px solid transparent;
+		}
+		
+		.ui-datepicker-calendar .ui-state-hover{
+			background-color:#79b3e2;
+			border:1px solid #79b3e2;
+			color:#fff;
+		}
+		
+		.ui-datepicker-calendar .ui-state-highlight{
+			background-color:#79b3e2;
+			border:1px solid #79b3e2;
+			color:#fff;
+		}
+		
+		.ui-datepicker-calendar .ui-state-active{
+			background-color:#5ad98e;
+			border:1px solid #5ad98e;
+			color:#fff;
+		}
+		
+		.ui-datepicker .ui-datepicker-calendar span {
+			color:#bbb;
+		}
+		
+		.ui-datepicker .ui-datepicker-today a {
+			background-color:#5ad98e;
+			border:1px solid #5ad98e;
+			color:#fff;
+		}
+		
+	/*	--------------------------------------------------
+		:: Slider
+		-------------------------------------------------- */
+		
+		.ui-slider {
+			border:1px solid #ddd;
+		}
+		
+		.ui-slider .ui-slider-handle {
+			border:1px solid #ddd;
+			background-color:#f6f6f6;
+		}
+		
+		.ui-slider .ui-slider-range {
+			background-color:#f5f5f5;
+		}
+
+	/*	--------------------------------------------------
+		:: Custom Slider
+		-------------------------------------------------- */
+		
+		.ui-slider-pips .ui-slider-pip { 
+			color:#999;
+		}
+
+		.ui-slider-pips .ui-slider-line {
+			background-color:#999;
+		}
+
+		.ui-slider-pip:hover .ui-slider-label {
+			color:#999;
+		}
+
+		.ui-slider-float .ui-slider-tip,
+		.ui-slider-float .ui-slider-tip-label {
+			background-color:#3c9ad0;
+		    border:1px solid #1f77aa;
+			color:#fff;
+		}
+	  
+		.ui-slider-float .ui-slider-tip:after,
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:after {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+
+		.ui-slider-float .ui-slider-tip:before,
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:before {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+		
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:after {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
+
+		.ui-slider-float .ui-slider-pip .ui-slider-tip-label:before {
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+			border-top:10px solid #3c9ad0;
+		}
