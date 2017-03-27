@@ -118,11 +118,7 @@ body {
   background: #004085 url('../img/geo.png') center top no-repeat;
   background-attachment: fixed;
 }
-  body.aboutus {
-    background: #004085 url('../img/building.jpg') center center no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
+
 /* Header */
 #logo {
   position: relative;
