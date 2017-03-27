@@ -185,9 +185,9 @@
           <p>Copyright &copy; 2016, National Office Products &amp; Printing, Inc.</p>
         </div>
         <div class="bit-2 text-right hide">
-          <img style="margin-right: 2em;" src="assets/img/support/hp-supplies-medallion.gif" height="35" alt="Hewlett-Packard Qualified Supplies Partner" />
-          <a href="http://www.konicaminolta.us" target="_blank" style="margin-right: 2em;"><img src="assets/img/support/kon.png" height="35" alt="Konica Minolta Authorized Dealer &amp; ProTech&reg; Service Center" /></a>
-          <a href="mailto:graphics@nopp.com"><img src="assets/img/support/jon-schuster.svg" height="20" style="margin-bottom: 8px;" alt="Website designed &amp; developed by Jon Schuster" /></a>
+          <img style="margin-right: 2em;" src="../assets/img/support/hp-supplies-medallion.gif" height="35" alt="Hewlett-Packard Qualified Supplies Partner" />
+          <a href="http://www.konicaminolta.us" target="_blank" style="margin-right: 2em;"><img src="../assets/img/support/kon.png" height="35" alt="Konica Minolta Authorized Dealer &amp; ProTech&reg; Service Center" /></a>
+          <a href="mailto:graphics@nopp.com"><img src="../assets/img/support/jon-schuster.svg" height="20" style="margin-bottom: 8px;" alt="Website designed &amp; developed by Jon Schuster" /></a>
         </div>
       </div>
     </footer>
